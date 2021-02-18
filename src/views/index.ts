@@ -1,5 +1,9 @@
-import Home from './Home/Home'
+import { Home } from './Home';
+import { Presentation } from './Presentation';
+import { Projects } from './Projects';
 
 export {
-  Home
-}
+  Home,
+  Presentation,
+  Projects,
+};

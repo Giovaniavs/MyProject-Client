@@ -1,9 +1,12 @@
 import React from 'react';
-import { Home } from './views';
+import { Home, Presentation, Projects } from './views';
 
 const App: React.FC = () => (
-  <Home />
+  <>
+    <Home />
+    <Presentation />
+    <Projects />
+  </>
 );
-
 
 export default App;

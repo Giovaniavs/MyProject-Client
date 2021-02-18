@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, H1 } from '../../global/globalStyle';
 
-function Home() {
+function Projects() {
   return (
     <>
-      <Container backGroundColor="#95FAFF">
-        <H1> Home </H1>
+      <Container backGroundColor="#C2FF95">
+        <H1> Projects </H1>
       </Container>
 
     </>
@@ -13,4 +13,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Projects;
