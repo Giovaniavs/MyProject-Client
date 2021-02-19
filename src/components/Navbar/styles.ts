@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 
-const NavbarContainer = styled.div`
+interface Props {
+  backgroundColor: string,
+  boxShadow: string
+}
+
+const NavbarContainer = styled.div<Props>`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,7 +13,9 @@ const NavbarContainer = styled.div`
   height: 60px;
   position: fixed;
   z-index: 10;
-  background-color: #ffffff ;
+  box-shadow: ${(p: Props) => p.boxShadow};
+  background-color: ${(p: Props) => p.backgroundColor} ;
+  transition: .3s;
 `;
 
 const NavbarList = styled.ul`
