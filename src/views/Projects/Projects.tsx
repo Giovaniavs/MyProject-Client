@@ -4,7 +4,7 @@ import { Container, H1 } from '../../global/globalStyle';
 function Projects() {
   return (
     <>
-      <Container backGroundColor="#C2FF95">
+      <Container id="Pro" backGroundColor="#d3ffb4">
         <H1> Projects </H1>
       </Container>
 
