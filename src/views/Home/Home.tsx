@@ -7,7 +7,6 @@ function Home() {
       <Container backGroundColor="#95FAFF">
         <H1> Home </H1>
       </Container>
-
     </>
 
   );
