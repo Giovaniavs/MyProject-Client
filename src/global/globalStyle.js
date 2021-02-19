@@ -1,20 +1,17 @@
 import styled from 'styled-components';
 
-interface Props {
-  backGroundColor: string
-}
-
-const Container = styled.div<Props>`
+const Container = styled.div`
   height: 100vh;
   padding: 70px 0;
   z-index: 1;
-  background-color: ${(p: Props) => p.backGroundColor};
+  background-color: ${({ color }) => color || 'none'};
 `;
 
 const H1 = styled.h1`
   display: flex;
   justify-content: center;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 `;
 
 export {

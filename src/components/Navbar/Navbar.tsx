@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import {
   NavbarContainer,
   NavbarList,
@@ -6,7 +7,6 @@ import {
   ItemLink,
   ContainerImage,
 } from './styles';
-import { H1 } from '../../global/globalStyle';
 
 import MyPageIcon from '../../assets/MyPageIcon.png';
 
