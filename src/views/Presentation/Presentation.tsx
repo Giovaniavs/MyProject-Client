@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container, H1 } from '../../global/globalStyle.js';
+import { Container, H1 } from '../../global/globalStyle';
 
 function Presentation() {
   return (
     <>
-      <Container id="Presentation" color="rgb(255, 254, 183)">
-        <H1> Presentation </H1>
+      <Container id="Presentation" zindex={1} height="100vh" padding="70px 0" backgroundColor="rgb(255, 254, 183)">
+        <H1 align="center"> Presentation </H1>
       </Container>
 
     </>
