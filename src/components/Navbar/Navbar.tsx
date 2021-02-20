@@ -13,19 +13,22 @@ import MyPageIcon from '../../assets/MyPageIcon.png';
 function Navbar() {
   const [backGroundColor, setbackGroundColor] = useState('transparent');
   const [boxShadow, setboxShadow] = useState('none');
+  const [navHeight, setNavHeight] = useState('60px');
   window.onscroll = scroll;
   function scroll() {
     if (window.scrollY === 0) {
       setbackGroundColor('transparent');
       setboxShadow('none');
+      setNavHeight('60px');
     } else {
       setbackGroundColor('#ffffff');
       setboxShadow('0 3px 12px rgba(0,0,0,.16)');
+      setNavHeight('80px');
     }
   }
   return (
     <>
-      <NavbarContainer backgroundColor={backGroundColor} boxShadow={boxShadow}>
+      <NavbarContainer backgroundColor={backGroundColor} boxShadow={boxShadow} height={navHeight}>
         <a href="#Home">
           <ContainerImage alt="My page icon" src={MyPageIcon} />
         </a>

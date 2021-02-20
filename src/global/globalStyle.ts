@@ -70,13 +70,6 @@ const FlexContainer = styled(Container)`
   overflow: ${(p: Props) => p.overflow || 'unset'};
 `;
 
-// const H1 = styled.h1`
-//   display: flex;
-//   justify-content: center;
-//   margin: 0;
-//   font-family: 'Roboto', sans-serif;
-// `;
-
 const Text = styled.p`
   width: ${(p: Props) => p.width || '100%'};
   height: ${(p: Props) => p.height || '100%'};
