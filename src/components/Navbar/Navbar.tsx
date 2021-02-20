@@ -14,8 +14,8 @@ function Navbar() {
   const [backGroundColor, setbackGroundColor] = useState('transparent');
   const [boxShadow, setboxShadow] = useState('none');
   const [navHeight, setNavHeight] = useState('60px');
-  window.onscroll = scroll;
-  function scroll() {
+
+  document.addEventListener('scroll', () => {
     if (window.scrollY === 0) {
       setbackGroundColor('transparent');
       setboxShadow('none');
@@ -25,7 +25,8 @@ function Navbar() {
       setboxShadow('0 3px 12px rgba(0,0,0,.16)');
       setNavHeight('80px');
     }
-  }
+  });
+
   return (
     <>
       <NavbarContainer backgroundColor={backGroundColor} boxShadow={boxShadow} height={navHeight}>
