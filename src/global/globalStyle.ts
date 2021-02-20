@@ -40,7 +40,8 @@ interface Props {
   bottom?: string,
   left?: string,
   right?: string,
-  transition?: string
+  transition?: string,
+  objectFit?: string
 }
 
 const Container = styled.div`
@@ -103,6 +104,7 @@ const Text = styled.p`
   text-shadow: ${(p: Props) => p.textShadow || 'unset'};
   overflow: ${(p: Props) => p.overflow || 'unset'};
   align-self: ${(p: Props) => p.alignSelf || 'inherit'};
+  font-family: ${(p: Props) => p.fontFamily || 'Roboto, sans-serif'};
 `;
 
 const H1 = styled.h1`
@@ -124,6 +126,7 @@ const H1 = styled.h1`
 `;
 
 const H2 = styled.h2`
+  font-family: ${(p: Props) => p.fontFamily || 'Roboto, sans-serif'};
   width: ${(p: Props) => p.width || '100%'};
   margin: ${(p: Props) => p.margin || '0 0'};
   padding: ${(p: Props) => p.padding || '0 0'};
@@ -137,10 +140,23 @@ const H2 = styled.h2`
   text-shadow: ${(p: Props) => p.textShadow || 'unset'};
 `;
 
+const ImageComponent = styled.img`
+  object-fit: ${(p: Props) => p.objectFit || 'cover'};
+  width: ${(p: Props) => p.width || '100%'};
+  height: ${(p: Props) => p.height || '100%'};
+  margin: ${(p: Props) => p.margin || '0 0'};
+  padding: ${(p: Props) => p.padding || '0 0'};
+  opacity: ${(p: Props) => p.opacity || 1};
+  border-radius: ${(p: Props) => p.borderRadius || '0px'};
+  box-shadow: ${(p: Props) => p.boxShadow || 'none'};
+  z-index: ${(p: Props) => p.zindex || 'unset'};
+`;
+
 export {
   Container,
   FlexContainer,
   H1,
   H2,
   Text,
+  ImageComponent,
 };
