@@ -35,13 +35,23 @@ interface Props {
   textShadow?: string,
   alignSelf?: string,
   position?: string,
-  fontFamily?: string
+  fontFamily?: string,
+  top?: string,
+  bottom?: string,
+  left?: string,
+  right?: string,
+  transition?: string
 }
 
 const Container = styled.div`
   z-index: ${(p: Props) => p.zindex || 'unset'};
   background-color: ${(p: Props) => p.backgroundColor || 'white'};
   display: ${(p: Props) => p.display || 'block'};
+  position: ${(p: Props) => p.position || 'unset'};
+  top: ${(p: Props) => p.top};
+  bottom: ${(p: Props) => p.bottom};
+  left: ${(p: Props) => p.left};
+  right: ${(p: Props) => p.right};
   justify-content: ${(p: Props) => p.justify || 'unset'};
   overflow: ${(p: Props) => p.overflow || 'unset'};
   overflow-x: ${(p: Props) => p.overX || 'hidden'};
@@ -58,7 +68,7 @@ const Container = styled.div`
   border: ${(p: Props) => p.border || 'none'};
   border-radius: ${(p: Props) => p.borderRadius || '0px'};
   box-shadow: ${(p: Props) => p.boxShadow || 'none'};
-  border-radius: ${(p: Props) => p.radius || 'unset'};
+  transition: ${(p: Props) => p.transition || 'unset'};
 `;
 
 const FlexContainer = styled(Container)`
@@ -72,7 +82,7 @@ const FlexContainer = styled(Container)`
 
 const Text = styled.p`
   width: ${(p: Props) => p.width || '100%'};
-  height: ${(p: Props) => p.height || '100%'};
+  height: ${(p: Props) => p.height || 'fit-content'};
   min-height: ${(p: Props) => p.minHeight || 'unset'};
   max-height: ${(p: Props) => p.maxHeight || 'unset'};
   max-width: ${(p: Props) => p.maxWidth || 'unset'};
@@ -98,6 +108,7 @@ const Text = styled.p`
 const H1 = styled.h1`
   font-family: ${(p: Props) => p.fontFamily || 'Roboto, sans-serif'};
   width: ${(p: Props) => p.width || '100%'};
+  height: ${(p: Props) => p.height || 'fit-content'};
   margin: ${(p: Props) => p.margin || '0 0'};
   padding: ${(p: Props) => p.padding || '0 0'};
   font-size: ${(p: Props) => p.textSize || '2em'};
@@ -109,7 +120,7 @@ const H1 = styled.h1`
   text-align: ${(p: Props) => p.align || 'unset'};
   text-shadow: ${(p: Props) => p.textShadow || 'unset'};
   align-content: ${(p: Props) => p.justify || 'unset'};
-  position: ${(p: Props) => p.position || 'inherit'};
+  position: ${(p: Props) => p.position || 'unset'};
 `;
 
 const H2 = styled.h2`
