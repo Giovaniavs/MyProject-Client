@@ -42,7 +42,7 @@ function Home() {
     <>
       <Container id="Home" zindex={1} height="100vh" display="flex" align="center" justify="center">
         <FlexContainer padding="0 10%" align="center" justify="space-between" backgroundColor={backGroundColor} transition=".8s">
-          <Text align="center" weight="bold" textSize="2.5em" opacity={textOpacity} transition="0.5s">
+          <Text align="center" weight="bold" textSize="2.5em" opacity={textOpacity} transition="0.5s all ease-in-out">
             Bem vindo!
             <br />
             Welcome!
