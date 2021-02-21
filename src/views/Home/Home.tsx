@@ -67,14 +67,28 @@ function Home() {
           <FlexContainer zindex={2} height="60%" width="40%" boxShadow="0 8px 18px rgba(0,0,0,.16)" borderRadius="30px" position="absolute" right={descriptionPositionX} bottom={descriptionPositionY} opacity={cardOpacity} transition="0.5s all ease-in-out" direction="column" align="center">
             <H2 align="center" padding="10px 0" fontFamily="'Indie Flower', cursive"> Brief description about me! </H2>
             <Container width="75%">
-              <Text fontFamily="'Indie Flower', cursive" padding="10px 0">
+              <Text fontFamily="'Indie Flower', cursive" padding="10px 0" height="90%" overY="auto">
                 Hello there!
                 I&apos;m glad to see you right here, nice to meet you!
-                So, i&apos;m Giovani Albuquerque and i really like to study and build some
+                So, I&apos;m Giovani Albuquerque and I really like to study and build some
                 web applications by frequently using react.js in the front-end and node.js plus
-                expressin the back-end! Nowadays i&apos;m so excited to learn more about DevOps
+                expressin the back-end! Nowadays I&apos;m so excited to learn more about DevOps
                 and improve my backend skills, so, let&apos;s study and talk with the best
                 friend of the developer, the Google!
+                <br />
+                About my hobbies, I am some one that likes to play games, preferably playing
+                by pc, like DayZ, Battlefield, Dota 2, The Witcher and some others. My favorite
+                style of game is RPG without a doubt! But I&apos;m a FPS fan too! About movies,
+                series and animes my favorite are Game Of Thrones as a serie, Saving Private Ryan
+                as a movie and Attack On Titan(Shingeki no Kyojin) / Dragon Ball as anime!
+                <br />
+                And the last but not the least, about my favorite books! Since 2017 I&apos;ve
+                started to pratice my reading habit, and to do that, I started reading Game of
+                Thrones haha! Was an answome serie of books and pull me through inside in the world
+                of the literature. After GoT, I started to read more about fantasy world, reading
+                great titles like Lord Of The Rings, The Hobbit and Warcraft books! Nowadays
+                I&apos;m reading a techinical book to help me improve my Developer skills, this one
+                is the famous Clean Code of uncle bob!
               </Text>
             </Container>
           </FlexContainer>
