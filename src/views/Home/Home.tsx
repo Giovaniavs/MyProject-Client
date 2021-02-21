@@ -67,7 +67,7 @@ function Home() {
           <FlexContainer zindex={2} height="60%" width="40%" boxShadow="0 8px 18px rgba(0,0,0,.16)" borderRadius="30px" position="absolute" right={descriptionPositionX} bottom={descriptionPositionY} opacity={cardOpacity} transition="0.5s all ease-in-out" direction="column" align="center">
             <H2 align="center" padding="10px 0" fontFamily="'Indie Flower', cursive"> Brief description about me! </H2>
             <Container width="75%">
-              <Text fontFamily="'Indie Flower', cursive" padding="10px 0">
+              <Text fontFamily="'Indie Flower', cursive" padding="10px 0" height="90%" overY="auto">
                 Hello there!
                 I&apos;m glad to see you right here, nice to meet you!
                 So, I&apos;m Giovani Albuquerque and I really like to study and build some

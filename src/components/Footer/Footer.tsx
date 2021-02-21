@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
-  Container,
   FlexContainer,
   H2,
   ImageComponent,
-  Text,
 } from '../../global/globalStyle';
 
 function Footer() {
