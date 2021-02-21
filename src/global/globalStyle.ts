@@ -41,7 +41,11 @@ interface Props {
   left?: string,
   right?: string,
   transition?: string,
-  objectFit?: string
+  objectFit?: string,
+  borderTop?: string,
+  borderBottom?: string,
+  borderLeft?: string,
+  borderRight?: string
 }
 
 const Container = styled.div`
@@ -66,7 +70,10 @@ const Container = styled.div`
   min-width: ${(p: Props) => p.minWidth || 'unset'};
   margin: ${(p: Props) => p.margin || '0 0'};
   padding: ${(p: Props) => p.padding || '0 0'};
-  border: ${(p: Props) => p.border || 'none'};
+  border-top: ${(p: Props) => p.borderTop || 'none'};
+  border-bottom: ${(p: Props) => p.borderBottom || 'none'};
+  border-left: ${(p: Props) => p.borderLeft || 'none'};
+  border-right: ${(p: Props) => p.borderRight || 'none'};
   border-radius: ${(p: Props) => p.borderRadius || '0px'};
   box-shadow: ${(p: Props) => p.boxShadow || 'none'};
   opacity: ${(p: Props) => p.opacity || 1};
@@ -131,6 +138,7 @@ const H1 = styled.h1`
 const H2 = styled.h2`
   font-family: ${(p: Props) => p.fontFamily || 'Roboto, sans-serif'};
   width: ${(p: Props) => p.width || '100%'};
+  height: ${(p: Props) => p.height || 'fit-content'};
   margin: ${(p: Props) => p.margin || '0 0'};
   padding: ${(p: Props) => p.padding || '0 0'};
   font-size: ${(p: Props) => p.textSize || '1.5em'};

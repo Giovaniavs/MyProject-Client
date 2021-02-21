@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar } from './components';
+import { Navbar, Footer } from './components';
 import { Home, Presentation, Projects } from './views';
 
 const App: React.FC = () => (
@@ -8,6 +8,7 @@ const App: React.FC = () => (
     <Home />
     <Presentation />
     <Projects />
+    <Footer />
   </>
 );
 
