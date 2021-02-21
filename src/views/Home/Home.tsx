@@ -15,6 +15,9 @@ function Home() {
   const [photoPositionY, setPhotoPositionY] = useState('15%');
   const [descriptionPositionX, setDescriptionPositionX] = useState('5%');
   const [descriptionPositionY, setDescriptionPositionY] = useState('5%');
+  const [cardOpacity, setCardOpacity] = useState('0');
+  const [textOpacity, setTextOpacity] = useState('1');
+
   document.addEventListener('scroll', () => {
     if (window.scrollY === 0) {
       setPhotoPositionX('5%');
@@ -22,12 +25,16 @@ function Home() {
       setDescriptionPositionX('5%');
       setDescriptionPositionY('5%');
       setBackGroundColor('white');
+      setCardOpacity('0');
+      setTextOpacity('1');
     } else {
       setPhotoPositionX('13%');
       setPhotoPositionY('25%');
       setDescriptionPositionX('10%');
       setDescriptionPositionY('10%');
       setBackGroundColor('#c7ffff');
+      setCardOpacity('1');
+      setTextOpacity('0');
     }
   });
 
@@ -35,10 +42,29 @@ function Home() {
     <>
       <Container id="Home" zindex={1} height="100vh" display="flex" align="center" justify="center">
         <FlexContainer padding="0 10%" align="center" justify="space-between" backgroundColor={backGroundColor} transition=".8s">
-          <FlexContainer height="60%" width="40%" boxShadow="0 8px 18px rgba(0,0,0,.16)" borderRadius="30px" position="absolute" left={photoPositionX} top={photoPositionY} transition="0.5s all ease-in-out">
+          <Text align="center" weight="bold" textSize="2.5em" opacity={textOpacity} transition="0.5s">
+            Bem vindo!
+            <br />
+            Welcome!
+            <br />
+            Bienvenido!
+            <br />
+            Herzlich willkommen!
+            <br />
+            Benvenuto!
+            <br />
+            بيم فيندو
+            <br />
+            ベン・ヴィンド
+            <br />
+            歡迎
+            <br />
+            어서 오십시오
+          </Text>
+          <FlexContainer height="60%" width="40%" boxShadow="0 8px 18px rgba(0,0,0,.16)" borderRadius="30px" position="absolute" left={photoPositionX} top={photoPositionY} opacity={cardOpacity} transition="0.5s all ease-in-out">
             <ImageComponent src={MyPhoto} objectFit="fit-content" borderRadius="30px" />
           </FlexContainer>
-          <FlexContainer zindex={2} height="60%" width="40%" boxShadow="0 8px 18px rgba(0,0,0,.16)" borderRadius="30px" position="absolute" right={descriptionPositionX} bottom={descriptionPositionY} transition="0.5s all ease-in-out" direction="column" align="center">
+          <FlexContainer zindex={2} height="60%" width="40%" boxShadow="0 8px 18px rgba(0,0,0,.16)" borderRadius="30px" position="absolute" right={descriptionPositionX} bottom={descriptionPositionY} opacity={cardOpacity} transition="0.5s all ease-in-out" direction="column" align="center">
             <H2 align="center" padding="10px 0" fontFamily="'Indie Flower', cursive"> Brief description about me! </H2>
             <Container width="75%">
               <Text fontFamily="'Indie Flower', cursive" padding="10px 0">

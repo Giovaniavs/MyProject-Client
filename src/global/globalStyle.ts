@@ -69,6 +69,7 @@ const Container = styled.div`
   border: ${(p: Props) => p.border || 'none'};
   border-radius: ${(p: Props) => p.borderRadius || '0px'};
   box-shadow: ${(p: Props) => p.boxShadow || 'none'};
+  opacity: ${(p: Props) => p.opacity || 1};
   transition: ${(p: Props) => p.transition || 'unset'};
 `;
 
@@ -105,6 +106,8 @@ const Text = styled.p`
   overflow: ${(p: Props) => p.overflow || 'unset'};
   align-self: ${(p: Props) => p.alignSelf || 'inherit'};
   font-family: ${(p: Props) => p.fontFamily || 'Roboto, sans-serif'};
+  position: ${(p: Props) => p.position || 'unset'};
+  transition: ${(p: Props) => p.transition || 'unset'};
 `;
 
 const H1 = styled.h1`

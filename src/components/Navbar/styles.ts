@@ -18,7 +18,7 @@ const NavbarContainer = styled.div<Props>`
   z-index: 10;
   box-shadow: ${(p: Props) => p.boxShadow};
   background-color: ${(p: Props) => p.backgroundColor} ;
-  transition: .3s;
+  transition: .5s;
 `;
 
 const NavbarList = styled.ul`
