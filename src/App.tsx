@@ -1,12 +1,12 @@
 import React from 'react';
 import { Navbar, Footer } from './components';
-import { Home, Presentation, Projects } from './views';
+import { Home, Experiences, Projects } from './views';
 
 const App: React.FC = () => (
   <>
     <Navbar />
     <Home />
-    <Presentation />
+    <Experiences />
     <Projects />
     <Footer />
   </>

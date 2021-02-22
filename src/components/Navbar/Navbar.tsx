@@ -38,7 +38,7 @@ function Navbar() {
             <ItemLink href="#Projects"> Projects </ItemLink>
           </NavbarItem>
           <NavbarItem>
-            <ItemLink href="#Presentation"> Presentation </ItemLink>
+            <ItemLink href="#Experiences"> Experiences </ItemLink>
           </NavbarItem>
           <NavbarItem>
             <ItemLink href="#Home"> Home </ItemLink>

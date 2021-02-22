@@ -1,9 +1,9 @@
 import { Home } from './Home';
-import { Presentation } from './Presentation';
+import { Experiences } from './Experiences';
 import { Projects } from './Projects';
 
 export {
   Home,
-  Presentation,
+  Experiences,
   Projects,
 };
