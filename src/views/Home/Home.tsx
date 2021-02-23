@@ -76,7 +76,7 @@ function Home() {
                 and improve my backend skills, so, let&apos;s study and talk with the best
                 friend of the developer, the Google!
                 <br />
-                About my hobbies, I am some one that likes to play games, preferably playing
+                About my hobbies, I am someone that likes to play games, preferably playing
                 by pc, like DayZ, Battlefield, Dota 2, The Witcher and some others. My favorite
                 style of game is RPG without a doubt! But I&apos;m a FPS fan too! About movies,
                 series and animes my favorite are Game Of Thrones as a serie, Saving Private Ryan
@@ -84,7 +84,7 @@ function Home() {
                 <br />
                 And the last but not the least, about my favorite books! Since 2017 I&apos;ve
                 started to pratice my reading habit, and to do that, I started reading Game of
-                Thrones haha! Was an answome serie of books and pull me through inside in the world
+                Thrones haha! Was an awesome series of books that pulled me into the world
                 of the literature. After GoT, I started to read more about fantasy world, reading
                 great titles like Lord Of The Rings, The Hobbit and Warcraft books! Nowadays
                 I&apos;m reading a techinical book to help me improve my Developer skills, this one

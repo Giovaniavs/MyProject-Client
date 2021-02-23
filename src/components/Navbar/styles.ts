@@ -58,7 +58,7 @@ const ItemLink = styled.a`
 
 const ContainerImage = styled.img`
   height: 50px;
-  margin: 0 0 0 30px;
+  margin: 5px 0 0 30px;
   cursor: pointer;
 `;
 
