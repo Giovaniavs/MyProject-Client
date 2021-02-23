@@ -19,15 +19,7 @@ function Home() {
   const [textOpacity, setTextOpacity] = useState('1');
 
   document.addEventListener('scroll', () => {
-    if (window.scrollY === 0) {
-      setPhotoPositionX('5%');
-      setPhotoPositionY('15%');
-      setDescriptionPositionX('5%');
-      setDescriptionPositionY('5%');
-      setBackGroundColor('white');
-      setCardOpacity('0');
-      setTextOpacity('1');
-    } else {
+    if (window.scrollY !== 0) {
       setPhotoPositionX('13%');
       setPhotoPositionY('25%');
       setDescriptionPositionX('10%');
@@ -40,9 +32,28 @@ function Home() {
 
   return (
     <>
-      <Container id="Home" zindex={1} height="100vh" display="flex" align="center" justify="center">
-        <FlexContainer padding="0 10%" align="center" justify="space-between" backgroundColor={backGroundColor} transition=".8s">
-          <Text align="center" weight="bold" textSize="2.5em" opacity={textOpacity} transition="0.5s all ease-in-out">
+      <Container
+        id="Home"
+        zindex={1}
+        height="100vh"
+        display="flex"
+        align="center"
+        justify="center"
+      >
+        <FlexContainer
+          padding="0 10%"
+          align="center"
+          justify="space-between"
+          backgroundColor={backGroundColor}
+          transition=".8s"
+        >
+          <Text
+            align="center"
+            weight="bold"
+            textSize="2.5em"
+            opacity={textOpacity}
+            transition="0.5s all ease-in-out"
+          >
             Bem vindo!
             <br />
             Welcome!
@@ -61,13 +72,37 @@ function Home() {
             <br />
             어서 오십시오
           </Text>
-          <FlexContainer height="60%" width="40%" boxShadow="0 8px 18px rgba(0,0,0,.16)" borderRadius="30px" position="absolute" left={photoPositionX} top={photoPositionY} opacity={cardOpacity} transition="0.5s all ease-in-out">
+          <FlexContainer
+            height="60%"
+            width="40%"
+            boxShadow="0 8px 18px rgba(0,0,0,.16)"
+            borderRadius="30px"
+            position="absolute"
+            left={photoPositionX}
+            top={photoPositionY}
+            opacity={cardOpacity}
+            transition="0.5s all ease-in-out"
+          >
             <ImageComponent src={MyPhoto} objectFit="fit-content" borderRadius="30px" />
           </FlexContainer>
-          <FlexContainer zindex={2} height="60%" width="40%" boxShadow="0 8px 18px rgba(0,0,0,.16)" borderRadius="30px" position="absolute" right={descriptionPositionX} bottom={descriptionPositionY} opacity={cardOpacity} transition="0.5s all ease-in-out" direction="column" align="center">
-            <H2 align="center" padding="10px 0" fontFamily="'Indie Flower', cursive"> Brief description about me! </H2>
+          <FlexContainer
+            zindex={2}
+            height="60%"
+            width="40%"
+            boxShadow="0 8px 18px rgba(0,0,0,.16)"
+            borderRadius="30px"
+            position="absolute"
+            right={descriptionPositionX}
+            bottom={descriptionPositionY}
+            opacity={cardOpacity}
+            transition="0.5s all ease-in-out"
+            direction="column"
+            align="center"
+          >
+
+            <H2 align="center" padding="5% 0"> Brief description about me! </H2>
             <Container width="75%">
-              <Text fontFamily="'Indie Flower', cursive" padding="10px 0" height="90%" overY="auto">
+              <Text align="center" height="90%" overY="auto">
                 Hello there!
                 I&apos;m glad to see you right here, nice to meet you!
                 So, I&apos;m Giovani Albuquerque and I really like to study and build some
@@ -80,7 +115,7 @@ function Home() {
                 by pc, like DayZ, Battlefield, Dota 2, The Witcher and some others. My favorite
                 style of game is RPG without a doubt! But I&apos;m a FPS fan too! About movies,
                 series and animes my favorite are Game Of Thrones as a serie, Saving Private Ryan
-                as a movie and Attack On Titan(Shingeki no Kyojin) / Dragon Ball as anime!
+                as a movie and Attack On Titan / Dragon Ball as anime!
                 <br />
                 And the last but not the least, about my favorite books! Since 2017 I&apos;ve
                 started to pratice my reading habit, and to do that, I started reading Game of
