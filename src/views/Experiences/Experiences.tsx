@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { Container, H1 } from '../../global/globalStyle';
+import {
+  Container,
+  Text,
+  H2,
+} from '../../global/globalStyle';
 
 function Experiences() {
   const [backGroundColor, setBackGroundColor] = useState('white');
@@ -21,86 +25,73 @@ function Experiences() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(33, 150, 243)', color: '#000000' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="2011 - present"
+            date="2019 - Start"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           >
-            <h3 className="vertical-timeline-element-title">Creative Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-            <p>
-              Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-            </p>
+            <H2 className="vertical-timeline-element-title">Mathematics and Physics Monitor</H2>
+            <H2 className="vertical-timeline-element-subtitle">
+              {' '}
+              <a href="https://oficinadeestudos.miedu.com.br/#/landing/saibamais/0"> Oficina de Estudos</a>
+              {' '}
+              - Recife, PE
+            </H2>
+            <Text>
+              Acting as a monitor I&apos;ve learned so much about teaching and conversation skills,
+              because help different people with different dificults is a hard task to do!
+            </Text>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2010 - 2011"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-
+            contentStyle={{ background: '#fff', color: '#000000' }}
+            contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+            date="2019"
+            iconStyle={{ background: '#fff', color: '#fff' }}
           >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-            <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-            </p>
+            <H2 className="vertical-timeline-element-title">Started the Graduation in Systems Information</H2>
+            <H2 className="vertical-timeline-element-subtitle">Federal University of Pernambuco</H2>
+            <Text>
+              I started my studies in one of the best centers of techonology in the Latin America,
+              <a href="https://portal.cin.ufpe.br/"> CIn - Centro de Informática</a>
+              . I was aproved in the university with 768
+              points in the vestibular ENEM, which made me occupy the 6th position
+              of the approved ones!
+            </Text>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2008 - 2010"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-
+            contentStyle={{ background: '#91ff66', color: '#000000' }}
+            contentArrowStyle={{ borderRight: '7px solid  #91ff66' }}
+            date="2020.2 - 2021"
+            iconStyle={{ background: '#91ff66', color: '#fff' }}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-            <p>
-              User Experience, Visual Design
-            </p>
+            <H2 className="vertical-timeline-element-title">Full Stack Developer</H2>
+            <H2 className="vertical-timeline-element-subtitle">
+              {' '}
+              <a href="https://citi.org.br/"> CITi </a>
+              {' '}
+              - UFPE, CIn
+            </H2>
+            <Text>
+              It was my first experience as a developer in the real market. Be a part of a Junior
+              Enterprise was, without a doubt, the best choice that I made! I&apos;ve learned a
+              lot of things about Reactjs - JavaScript in the frontend and Nodejs - Express
+              in the backend.
+            </Text>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2006 - 2008"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-
+            contentStyle={{ background: '#91ff66', color: '#000000' }}
+            contentArrowStyle={{ borderRight: '7px solid  #91ff66' }}
+            date="2021 - Actual"
+            iconStyle={{ background: '#91ff66', color: '#fff' }}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-            <p>
-              User Experience, Visual Design
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="April 2013"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-
-          >
-            <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-            <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-            <p>
-              Strategy, Social Media
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="November 2012"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-
-          >
-            <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-            <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-            <p>
-              Creative Direction, User Experience, Visual Design
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            date="2002 - 2006"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-
-          >
-            <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-            <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-            <p>
-              Creative Direction, Visual Design
-            </p>
+            <H2 className="vertical-timeline-element-title">Tech Leader</H2>
+            <H2 className="vertical-timeline-element-subtitle"> CITi - UFPE, CIn</H2>
+            <Text>
+              As a tech leader I&apos;m responsible to: Teach the new developers in the enterprise
+              to grow up fastly, Work as a Quality Analist of the squad, Lead the area and make it
+              better for the future generation of the CITi!
+            </Text>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </Container>
