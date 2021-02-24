@@ -65,7 +65,7 @@ function Experiences() {
               I started my studies in one of the best centers of techonology in the Latin America,
               {' '}
               <a style={{ color: 'rgb(233, 30, 99)' }} href="https://portal.cin.ufpe.br/">CIn - Centro de Informática</a>
-              . I was aproved in the university with 768 points in the vestibular ENEM, which
+              . I was aproved in the university with 784 points in the vestibular ENEM, which
               made me occupy the 6th position of the approved ones!
             </Text>
           </VerticalTimelineElement>
