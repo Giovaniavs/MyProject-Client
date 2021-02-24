@@ -39,7 +39,7 @@ const NavbarItem = styled.li`
 
 const ItemLink = styled.a`
   display: flex;
-  color: #909090;
+  color: #777777;
   border-radius: 20px;
   text-align: center;
   align-items: center;
