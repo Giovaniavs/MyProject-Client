@@ -10,20 +10,27 @@ import {
 function Experiences() {
   const [backGroundColor, setBackGroundColor] = useState('white');
 
-  document.addEventListener('scroll', () => {
-    if (window.scrollY === 0) {
-      setBackGroundColor('white');
-    } else {
-      setBackGroundColor('#c7ffff');
+  document.addEventListener('scroll', changeStyleAfterScroll);
+
+  function changeStyleAfterScroll() {
+    if (window.scrollY !== 0) {
+      document.removeEventListener('scroll', changeStyleAfterScroll);
+      setBackGroundColor('#e4e4e4');
     }
-  });
+  }
+
   return (
     <>
       <Container id="Experiences" backgroundColor={backGroundColor} transition=".8s" zindex={1} height="100%" padding="60px 0">
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#000000' }}
+            contentStyle={{
+              background: '#fff',
+              borderTop: '3px solid rgb(33, 150, 243)',
+              color: '#000000',
+              fontFamily: 'Roboto',
+            }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             date="2019 - Start"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -31,7 +38,7 @@ function Experiences() {
             <H2 className="vertical-timeline-element-title">Mathematics and Physics Monitor</H2>
             <H2 className="vertical-timeline-element-subtitle">
               {' '}
-              <a href="https://oficinadeestudos.miedu.com.br/#/landing/saibamais/0"> Oficina de Estudos</a>
+              <a style={{ color: 'rgb(33, 150, 243)' }} href="https://oficinadeestudos.miedu.com.br/#/landing/saibamais/0"> Oficina de Estudos</a>
               {' '}
               - Recife, PE
             </H2>
@@ -42,32 +49,42 @@ function Experiences() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#fff', color: '#000000' }}
+            contentStyle={{
+              background: '#fff',
+              color: '#000000',
+              borderTop: '3px solid rgb(233, 30, 99)',
+              fontFamily: 'Roboto',
+            }}
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
             date="2019"
-            iconStyle={{ background: '#fff', color: '#fff' }}
+            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
           >
             <H2 className="vertical-timeline-element-title">Started the Graduation in Systems Information</H2>
             <H2 className="vertical-timeline-element-subtitle">Federal University of Pernambuco</H2>
             <Text>
               I started my studies in one of the best centers of techonology in the Latin America,
-              <a href="https://portal.cin.ufpe.br/"> CIn - Centro de Informática</a>
-              . I was aproved in the university with 768
-              points in the vestibular ENEM, which made me occupy the 6th position
-              of the approved ones!
+              {' '}
+              <a style={{ color: 'rgb(233, 30, 99)' }} href="https://portal.cin.ufpe.br/">CIn - Centro de Informática</a>
+              . I was aproved in the university with 768 points in the vestibular ENEM, which
+              made me occupy the 6th position of the approved ones!
             </Text>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#91ff66', color: '#000000' }}
-            contentArrowStyle={{ borderRight: '7px solid  #91ff66' }}
+            contentStyle={{
+              background: '#fff',
+              color: '#000000',
+              borderTop: '3px solid #7bdf54',
+              fontFamily: 'Roboto',
+            }}
+            contentArrowStyle={{ borderRight: '7px solid  #fff' }}
             date="2020.2 - 2021"
-            iconStyle={{ background: '#91ff66', color: '#fff' }}
+            iconStyle={{ background: '#7bdf54', color: '#fff' }}
           >
             <H2 className="vertical-timeline-element-title">Full Stack Developer</H2>
             <H2 className="vertical-timeline-element-subtitle">
               {' '}
-              <a href="https://citi.org.br/"> CITi </a>
+              <a style={{ color: '#7bdf54' }} href="https://citi.org.br/">CITi</a>
               {' '}
               - UFPE, CIn
             </H2>
@@ -80,10 +97,15 @@ function Experiences() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#91ff66', color: '#000000' }}
-            contentArrowStyle={{ borderRight: '7px solid  #91ff66' }}
+            contentStyle={{
+              background: '#fff',
+              borderTop: '3px solid #7bdf54',
+              color: '#000000',
+              fontFamily: 'Roboto',
+            }}
+            contentArrowStyle={{ borderRight: '7px solid  #fff' }}
             date="2021 - Actual"
-            iconStyle={{ background: '#91ff66', color: '#fff' }}
+            iconStyle={{ background: '#7bdf54', color: '#fff' }}
           >
             <H2 className="vertical-timeline-element-title">Tech Leader</H2>
             <H2 className="vertical-timeline-element-subtitle"> CITi - UFPE, CIn</H2>

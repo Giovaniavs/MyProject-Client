@@ -7,7 +7,7 @@ import {
   Text,
 } from '../../global/globalStyle';
 
-import MyPhoto from '../../assets/my-photo.jpeg';
+import MyPhoto from '../../assets/my-photo.png';
 
 function Home() {
   const [backGroundColor, setBackGroundColor] = useState('white');
@@ -18,17 +18,20 @@ function Home() {
   const [cardOpacity, setCardOpacity] = useState('0');
   const [textOpacity, setTextOpacity] = useState('1');
 
-  document.addEventListener('scroll', () => {
+  document.addEventListener('scroll', changeStyleAfterScroll);
+
+  function changeStyleAfterScroll() {
     if (window.scrollY !== 0) {
       setPhotoPositionX('13%');
       setPhotoPositionY('25%');
       setDescriptionPositionX('10%');
       setDescriptionPositionY('10%');
-      setBackGroundColor('#c7ffff');
+      setBackGroundColor('#e4e4e4');
       setCardOpacity('1');
       setTextOpacity('0');
+      document.removeEventListener('scroll', changeStyleAfterScroll);
     }
-  });
+  }
 
   return (
     <>
@@ -83,7 +86,7 @@ function Home() {
             opacity={cardOpacity}
             transition="0.5s all ease-in-out"
           >
-            <ImageComponent src={MyPhoto} objectFit="fit-content" borderRadius="30px" />
+            <ImageComponent src={MyPhoto} objectFit="cover" borderRadius="30px" />
           </FlexContainer>
           <FlexContainer
             zindex={2}
