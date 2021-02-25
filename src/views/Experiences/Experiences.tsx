@@ -21,7 +21,7 @@ function Experiences() {
 
   return (
     <>
-      <Container id="Experiences" backgroundColor={backGroundColor} transition=".8s" zindex={1} height="100%" padding="60px 0">
+      <Container id="Experiences" backgroundColor={backGroundColor} transition=".8s" zindex={1} height="100%" padding="6rem 0">
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
