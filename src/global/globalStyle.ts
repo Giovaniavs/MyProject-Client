@@ -134,6 +134,10 @@ const H1 = styled.h1`
   text-shadow: ${(p: Props) => p.textShadow || 'unset'};
   align-content: ${(p: Props) => p.justify || 'unset'};
   position: ${(p: Props) => p.position || 'unset'};
+  border-top: ${(p: Props) => p.borderTop || 'none'};
+  border-bottom: ${(p: Props) => p.borderBottom || 'none'};
+  border-left: ${(p: Props) => p.borderLeft || 'none'};
+  border-right: ${(p: Props) => p.borderRight || 'none'};
 `;
 
 const H2 = styled.h2`
@@ -150,6 +154,10 @@ const H2 = styled.h2`
   color: ${(p: Props) => p.textColor || 'inherit'};
   text-align: ${(p: Props) => p.align || 'unset'};
   text-shadow: ${(p: Props) => p.textShadow || 'unset'};
+  border-top: ${(p: Props) => p.borderTop || 'none'};
+  border-bottom: ${(p: Props) => p.borderBottom || 'none'};
+  border-left: ${(p: Props) => p.borderLeft || 'none'};
+  border-right: ${(p: Props) => p.borderRight || 'none'};
 `;
 
 const ImageComponent = styled.img`

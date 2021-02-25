@@ -7,7 +7,7 @@ import {
   Text,
 } from '../../global/globalStyle';
 
-import MyPhoto from '../../assets/my-photo.png';
+import MyPhoto from '../../assets/my-photo.jpeg';
 
 function Home() {
   const [backGroundColor, setBackGroundColor] = useState('white');
@@ -114,11 +114,13 @@ function Home() {
                 and improve my backend skills, so, let&apos;s study and talk with the best
                 friend of the developer, the Google!
                 <br />
+                <br />
                 About my hobbies, I am someone that likes to play games, preferably playing
                 by pc, like DayZ, Battlefield, Dota 2, The Witcher and some others. My favorite
                 style of game is RPG without a doubt! But I&apos;m a FPS fan too! About movies,
                 series and animes my favorite are Game Of Thrones as a serie, Saving Private Ryan
                 as a movie and Attack On Titan / Dragon Ball as anime!
+                <br />
                 <br />
                 And the last but not the least, about my favorite books! Since 2017 I&apos;ve
                 started to pratice my reading habit, and to do that, I started reading Game of
