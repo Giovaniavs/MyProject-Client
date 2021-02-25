@@ -1,13 +1,13 @@
 import React from 'react';
 import { Navbar, Footer } from './components';
-import { Home, Experiences, Projects } from './views';
+import { Home, Experiences, Soundtrack } from './views';
 
 const App: React.FC = () => (
   <>
     <Navbar />
     <Home />
     <Experiences />
-    <Projects />
+    <Soundtrack />
     <Footer />
   </>
 );

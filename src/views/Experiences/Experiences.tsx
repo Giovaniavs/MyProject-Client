@@ -30,6 +30,7 @@ function Experiences() {
               borderTop: '3px solid rgb(33, 150, 243)',
               color: '#000000',
               fontFamily: 'Roboto',
+              borderRadius: '15px',
             }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             date="2019 - Start"
@@ -54,6 +55,7 @@ function Experiences() {
               color: '#000000',
               borderTop: '3px solid rgb(233, 30, 99)',
               fontFamily: 'Roboto',
+              borderRadius: '15px',
             }}
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
             date="2019"
@@ -76,6 +78,7 @@ function Experiences() {
               color: '#000000',
               borderTop: '3px solid #7bdf54',
               fontFamily: 'Roboto',
+              borderRadius: '15px',
             }}
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
             date="2020.2 - 2021"
@@ -102,6 +105,7 @@ function Experiences() {
               borderTop: '3px solid #7bdf54',
               color: '#000000',
               fontFamily: 'Roboto',
+              borderRadius: '15px',
             }}
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
             date="2021 - Actual"
