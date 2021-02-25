@@ -59,7 +59,7 @@ function Experiences() {
             date="2019"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
           >
-            <H2 className="vertical-timeline-element-title">Started the Graduation in Systems Information</H2>
+            <H2 className="vertical-timeline-element-title">Started the Graduation in Information Systems</H2>
             <H2 className="vertical-timeline-element-subtitle">Federal University of Pernambuco</H2>
             <Text>
               I started my studies in one of the best centers of techonology in the Latin America,
