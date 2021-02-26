@@ -7,6 +7,8 @@ import {
   H2,
 } from '../../global/globalStyle';
 
+import { ExperiencesContainer } from './styles';
+
 function Experiences() {
   const [backGroundColor, setBackGroundColor] = useState('white');
 
@@ -21,7 +23,7 @@ function Experiences() {
 
   return (
     <>
-      <Container id="Experiences" backgroundColor={backGroundColor} transition=".8s" zindex={1} height="100%" padding="6rem 0">
+      <ExperiencesContainer id="Experiences" backgroundColor={backGroundColor} transition=".8s" zindex={1} height="100%" padding="6rem 0">
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -120,7 +122,7 @@ function Experiences() {
             </Text>
           </VerticalTimelineElement>
         </VerticalTimeline>
-      </Container>
+      </ExperiencesContainer>
 
     </>
 
