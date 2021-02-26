@@ -23,6 +23,13 @@ const NavbarContainer = styled.div<Props>`
   @media(max-width: 720px) {
     left: 0;
     width: 100%;
+    height: 60px;
+
+    img {
+      margin: 10px;
+      height: 40px;
+    }
+
   }
 
 `;
