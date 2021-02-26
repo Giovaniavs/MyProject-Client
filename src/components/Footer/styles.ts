@@ -13,6 +13,7 @@ const FooterContainer = styled(FlexContainer)`
     .message-footer {
       justify-content: center;
       padding: 0;
+      border-top: 1px solid #f2f3f5;
     }
 
   }
