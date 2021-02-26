@@ -19,6 +19,12 @@ const NavbarContainer = styled.div<Props>`
   box-shadow: ${(p: Props) => p.boxShadow};
   background-color: ${(p: Props) => p.backgroundColor} ;
   transition: .5s;
+
+  @media(max-width: 720px) {
+    left: 0;
+    width: 100%;
+  }
+
 `;
 
 const NavbarList = styled.ul`
@@ -27,6 +33,11 @@ const NavbarList = styled.ul`
   margin: 0 30px 0 0;
   padding: 0;
   overflow: hidden;
+
+  @media(max-width: 720px) {
+    display: none;
+  }
+
 `;
 
 const NavbarItem = styled.li`
