@@ -7,6 +7,8 @@ import {
   Text,
 } from '../../global/globalStyle';
 
+import { HomeContainer } from './styles';
+
 import MyPhoto from '../../assets/my-photo.jpeg';
 
 function Home() {
@@ -35,7 +37,7 @@ function Home() {
 
   return (
     <>
-      <Container
+      <HomeContainer
         id="Home"
         zindex={1}
         height="100vh"
@@ -76,6 +78,7 @@ function Home() {
             어서 오십시오
           </Text>
           <FlexContainer
+            className="my-personal-photo-container"
             height="60%"
             width="40%"
             boxShadow="0 8px 18px rgba(0,0,0,.16)"
@@ -89,6 +92,7 @@ function Home() {
             <ImageComponent src={MyPhoto} objectFit="cover" borderRadius="30px" />
           </FlexContainer>
           <FlexContainer
+            className="my-personal-description-container"
             zindex={2}
             height="60%"
             width="40%"
@@ -133,7 +137,7 @@ function Home() {
             </Container>
           </FlexContainer>
         </FlexContainer>
-      </Container>
+      </HomeContainer>
     </>
 
   );
