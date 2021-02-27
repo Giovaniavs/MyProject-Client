@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  Container,
   FlexContainer,
   H1,
   Text,
