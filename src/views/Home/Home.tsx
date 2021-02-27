@@ -17,7 +17,7 @@ function Home() {
   const [photoPositionY, setPhotoPositionY] = useState('15%');
   const [descriptionPositionX, setDescriptionPositionX] = useState('5%');
   const [descriptionPositionY, setDescriptionPositionY] = useState('5%');
-  const [descriptionIndex, setDescriptionIndex] = useState(-1);
+  const [descriptionScroll, setDescriptionScroll] = useState('hidden');
   const [cardOpacity, setCardOpacity] = useState('0');
   const [textOpacity, setTextOpacity] = useState('1');
 
@@ -32,7 +32,7 @@ function Home() {
       setBackGroundColor('#e4e4e4');
       setCardOpacity('1');
       setTextOpacity('0');
-      setDescriptionIndex(2);
+      setDescriptionScroll('auto');
       document.removeEventListener('scroll', changeStyleAfterScroll);
     }
   }
@@ -95,7 +95,7 @@ function Home() {
           </FlexContainer>
           <FlexContainer
             className="my-personal-description-container"
-            zindex={descriptionIndex}
+            zindex={2}
             height="60%"
             width="40%"
             boxShadow="0 8px 18px rgba(0,0,0,.16)"
@@ -111,7 +111,7 @@ function Home() {
 
             <H2 align="center" padding="5% 0"> Brief description about me! </H2>
             <Container width="75%">
-              <Text align="center" height="90%" overY="auto">
+              <Text align="center" height="90%" overY={descriptionScroll}>
                 Hello there!
                 I&apos;m glad to see you right here, nice to meet you!
                 So, I&apos;m Giovani Albuquerque and I really like to study and build some
