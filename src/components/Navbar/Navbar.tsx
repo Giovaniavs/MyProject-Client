@@ -1,7 +1,6 @@
 /* eslint-disable no-restricted-globals */
 import React, { useEffect, useState } from 'react';
 import { HamburgerArrow } from 'react-animated-burgers';
-import { FlexContainer } from '../../global/globalStyle';
 
 import {
   NavbarContainer,
