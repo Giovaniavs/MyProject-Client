@@ -1,9 +1,11 @@
 import styled from 'styled-components';
+import { FlexContainer } from '../../global/globalStyle';
 
 interface Props {
-  backgroundColor?: string,
-  boxShadow?: string,
-  height?: string
+  backgroundColor?: string;
+  boxShadow?: string;
+  height?: string;
+  transform?: string;
 }
 
 const NavbarContainer = styled.div<Props>`
@@ -19,7 +21,6 @@ const NavbarContainer = styled.div<Props>`
   box-shadow: ${(p: Props) => p.boxShadow};
   background-color: ${(p: Props) => p.backgroundColor} ;
   transition: .5s;
-
   @media(max-width: 720px) {
     left: 0;
     width: 100%;
@@ -33,15 +34,9 @@ const NavbarList = styled.ul`
   margin: 0 30px 0 0;
   padding: 0;
   overflow: hidden;
-
   @media(max-width: 720px) {
-    display: flex;
-    margin: 0;
-    width: 100%;
-    flex-direction: row-reverse;
-    justify-content: space-around;
+    display: none;
   }
-
 `;
 
 const NavbarItem = styled.li`
@@ -50,10 +45,6 @@ const NavbarItem = styled.li`
   align-items: center;
   height: 100%;
   margin: 0 10px;
-  @media(max-width: 720px) {
-    padding: 0;
-    margin: 0;
-  }
 `;
 
 const ItemLink = styled.a`
@@ -62,7 +53,9 @@ const ItemLink = styled.a`
   border-radius: 20px;
   text-align: center;
   align-items: center;
+  justify-content: center;
   height: 80%;
+  width: 100%;
   padding: 0 10px;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
@@ -73,21 +66,39 @@ const ItemLink = styled.a`
     color: black;
     opacity: 0.8;
   }
-  @media(max-width: 720px) {
-    padding: 0;
-    margin: 0;
-  }
  `;
 
 const ContainerImage = styled.img`
   height: 50px;
   margin: 5px 0 0 30px;
   cursor: pointer;
-
   @media(max-width: 720px) {
-    display: none;
+    width: 35px;
+    height: 35px;
+    margin: 0 0 0 10px;
   }
+`;
 
+const SidebarContainer = styled(FlexContainer)<Props>`
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100vh;
+  padding: 60px 0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 3px 12px rgba(0,0,0,.16);
+
+  transition: 0.5s;
+  transform: translateX(${(p: Props) => p.transform});
+`;
+
+const SidebarItem = styled(FlexContainer)<Props>`
+  height: 10%;
+  width: 100%;
+  justify-content: center;
+  margin: 5px 0;
 `;
 
 export {
@@ -96,4 +107,6 @@ export {
   NavbarItem,
   ItemLink,
   ContainerImage,
+  SidebarContainer,
+  SidebarItem,
 };
