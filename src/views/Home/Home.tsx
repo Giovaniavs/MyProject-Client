@@ -17,6 +17,7 @@ function Home() {
   const [photoPositionY, setPhotoPositionY] = useState('15%');
   const [descriptionPositionX, setDescriptionPositionX] = useState('5%');
   const [descriptionPositionY, setDescriptionPositionY] = useState('5%');
+  const [descriptionIndex, setDescriptionIndex] = useState(-1);
   const [cardOpacity, setCardOpacity] = useState('0');
   const [textOpacity, setTextOpacity] = useState('1');
 
@@ -31,6 +32,7 @@ function Home() {
       setBackGroundColor('#e4e4e4');
       setCardOpacity('1');
       setTextOpacity('0');
+      setDescriptionIndex(2);
       document.removeEventListener('scroll', changeStyleAfterScroll);
     }
   }
@@ -93,7 +95,7 @@ function Home() {
           </FlexContainer>
           <FlexContainer
             className="my-personal-description-container"
-            zindex={2}
+            zindex={descriptionIndex}
             height="60%"
             width="40%"
             boxShadow="0 8px 18px rgba(0,0,0,.16)"

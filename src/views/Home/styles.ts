@@ -4,10 +4,10 @@ import { FlexContainer } from '../../global/globalStyle';
 const HomeContainer = styled(FlexContainer)`
   @media(max-width: 720px) {
     .my-personal-photo-container {
-      top: 25%;
+      top: 15%;
       left: 5%;
       width: 90%;
-      height: 30%;
+      height: 40%;
     }
 
     .my-personal-description-container {
