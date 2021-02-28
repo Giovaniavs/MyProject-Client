@@ -7,12 +7,12 @@ This is my single project created with React, Styled Component and Typescript to
 
 <h2 align="center"> Desktop version </h2>
 <p align="center">
-  <img src="./gifs/sample1.gif" width="45%" />
+  <img src="./gifs/sample1.gif" width="65%" />
 </p>
 <br>
 <h2 align="center"> Mobile Version </h2>
 <p align="center">
-  <img src="./gifs/sample2.gif" width="15%" />
+  <img src="./gifs/sample2.gif" width="35%" />
 </p>
 
 ---
