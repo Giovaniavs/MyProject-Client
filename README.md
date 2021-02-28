@@ -1,5 +1,21 @@
 # MyProject Software Client
-This is a project created with React, Styled Component and Typescript.
+This is my single project created with React, Styled Component and Typescript to improve my experience and my skill with theses technologies. Also, to present me for everyone that came here!
+
+- [Deployed on Netlify](https://giovanialbuquerque.site/)
+
+## Features
+
+<h2 align="center"> Desktop version </h2>
+<p align="center">
+  <img src="./gifs/sample1.gif" width="45%" />
+</p>
+<br>
+<h2 align="center"> Mobile Version </h2>
+<p align="center">
+  <img src="./gifs/sample2.gif" width="15%" />
+</p>
+
+---
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -24,10 +40,8 @@ git clone https://github.com/Giovaniavs/MyProject-Client.git
 ```bash
 yarn install
 ```
-or just type 
-```bash
-yarn
-```
+
+---
 
 ## Running the project
 To run the project, just follow this simple command on the client terminal:
@@ -36,45 +50,28 @@ To run the project, just follow this simple command on the client terminal:
 yarn start
 ```
 
-## Built With
-* **React**
-* **Typescript**
-* **Styled Component**
+---
 
-## GitHub Pattern Project
+## Git Pattern Project
 
 ### Branches
 They can be:
 + main
-+ feature
-+ bugfix
-+ hotfix
-
-Their names must follow this template: `feature/branch-name`
++ develop
 
 ### Commits
 Must begin with the name of the branch you developed on, following the model: _“Feature(name-of-feature): rest of commit…”._
 
 Must be simple and show briefly what you just did.
 
-Ex: `git commit -m "Feature(banner): Added the banner in the first section of the landing page"`
+Ex: `git commit -m "Feature(home): Added the home in the first section of the landing page"`
 
-### Pull Requests
 
-> This should be the structure of the description when creating a PR
-
-```markdown
-## ***What I Did:***
-- Describe what you did
-
-## ***How to Test:***
-1. Instruction for other people test your pull request
-```
+---
 
 ## The Developer
-* **Giovani Albuquerque** - *Developer* - [Giovaniavs](https://github.com/Giovaniavs)
-
+* **Giovani Albuquerque** - *Developer and Designer* - [Giovaniavs](https://github.com/Giovaniavs)
 
 <p align="right">
-  Made by <b> The Great Hasp </b>
+  Made by <b> The Giovani Albuquerque </b>
 </p>
