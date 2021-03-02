@@ -1,5 +1,5 @@
 # MyProject Software Client
-This is my single project created with React, Styled Component and Typescript to improve my experience and skill with theses technologies. Also, to present me for everyone that came here!
+This is my single project created with React, Styled Component and Typescript to improve my experience and skill with theses technologies. Also it was made to present me for everyone that came here too!
 
 - [Deployed on Netlify](https://giovanialbuquerque.site/)
 
