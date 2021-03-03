@@ -22,6 +22,7 @@ function Navbar() {
   const [isMobile, setisMobile] = useState<boolean>();
   const [isSidebarActive, setIsSidebarActive] = useState('100%');
   const mobileScreen = 720;
+  const currentScreen = screen.width;
 
   document.addEventListener('scroll', () => {
     if (window.scrollY === 0) {
@@ -46,12 +47,12 @@ function Navbar() {
   }
 
   useEffect(() => {
-    if (screen.width <= mobileScreen) {
+    if (currentScreen <= mobileScreen) {
       setisMobile(true);
     } else {
       setisMobile(false);
     }
-  }, []);
+  }, [currentScreen]);
 
   return (
     <>
