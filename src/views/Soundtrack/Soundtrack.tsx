@@ -10,7 +10,7 @@ import { SoundtrackContainer } from './styles';
 
 function Soundtrack() {
   const [cardHeight, setCardHeight] = useState(380);
-  const smallerScreen = 720;
+  const smallerScreen = 850;
   const currentScreen = screen.height;
 
   useEffect(() => {
