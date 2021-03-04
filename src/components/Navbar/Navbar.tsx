@@ -82,7 +82,7 @@ function Navbar() {
               isActive={hamburguerButtonIsActive}
               toggleButton={toggleButton}
               buttonWidth={30}
-              buttonStyle={{ zIndex: 11 }}
+              buttonStyle={{ zIndex: 11, outline: 'none' }}
             />
             <SidebarContainer transform={isSidebarActive}>
               <SidebarItem onClick={() => { setIsSidebarActive('100%'); setHamburguerButtonIsActive(false); }}>
