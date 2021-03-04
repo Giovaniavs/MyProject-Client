@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { useState } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -40,7 +41,7 @@ function Experiences() {
             <H2 className="vertical-timeline-element-title">Mathematics and Physics Monitor</H2>
             <H2 className="vertical-timeline-element-subtitle">
               {' '}
-              <a style={{ color: 'rgb(33, 150, 243)' }} href="https://oficinadeestudos.miedu.com.br/#/landing/saibamais/0"> Oficina de Estudos</a>
+              <a style={{ color: 'rgb(33, 150, 243)' }} href="https://oficinadeestudos.miedu.com.br/#/landing/saibamais/0" target="_blank"> Oficina de Estudos</a>
               {' '}
               - Recife, PE
             </H2>
@@ -67,7 +68,7 @@ function Experiences() {
             <Text>
               I started my studies in one of the best centers of techonology in the Latin America,
               {' '}
-              <a style={{ color: 'rgb(233, 30, 99)' }} href="https://portal.cin.ufpe.br/">CIn - Centro de Informática</a>
+              <a style={{ color: 'rgb(233, 30, 99)' }} href="https://portal.cin.ufpe.br/" target="_blank">CIn - Centro de Informática</a>
               . I was aproved in the university with 784 points in the vestibular ENEM, which
               made me occupy the 6th position of the approved ones!
             </Text>
@@ -88,7 +89,7 @@ function Experiences() {
             <H2 className="vertical-timeline-element-title">Full Stack Developer</H2>
             <H2 className="vertical-timeline-element-subtitle">
               {' '}
-              <a style={{ color: '#7bdf54' }} href="https://citi.org.br/">CITi</a>
+              <a style={{ color: '#7bdf54' }} href="https://citi.org.br/" target="_blank">CITi</a>
               {' '}
               - UFPE, CIn
             </H2>
