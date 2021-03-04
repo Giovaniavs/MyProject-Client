@@ -14,12 +14,11 @@ const SoundtrackContainer = styled(Container)`
 
     .soundtrack-section{
       flex-wrap: wrap;
-      height: 55%;
+      height: 70%;
     }
 
     iframe {
       height: 80px;
-      margin: 0 0 25px 0;
     }
   }
 `;
