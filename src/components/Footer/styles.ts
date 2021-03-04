@@ -19,6 +19,12 @@ const FooterContainer = styled(FlexContainer)`
   }
 `;
 
+const StyledLink = styled.a`
+  height: 60%;
+  margin: auto 10px;
+`;
+
 export {
   FooterContainer,
+  StyledLink,
 };
