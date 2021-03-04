@@ -19,7 +19,7 @@ function Footer() {
             <ImageComponent width="32px" alt="github icon" src="https://img.icons8.com/ios/50/000000/github.png" />
           </StyledLink>
           <StyledLink href="https://www.linkedin.com/in/giovani-albuquerque-76a6ab1b6/" target="_blank">
-            <ImageComponent width="40px" alt="linkedin icon" src="https://img.icons8.com/carbon-copy/100/000000/linkedin.png" />
+            <ImageComponent width="35px" alt="linkedin icon" src="https://img.icons8.com/wired/64/000000/linkedin.png" />
           </StyledLink>
         </FlexContainer>
 
