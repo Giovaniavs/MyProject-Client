@@ -83,7 +83,7 @@ const SidebarContainer = styled(FlexContainer)<Props>`
   display: flex;
   flex-direction: column;
   width: 50%;
-  height: 100vh;
+  height: 100%;
   padding: 60px 0;
   position: fixed;
   right: 0;

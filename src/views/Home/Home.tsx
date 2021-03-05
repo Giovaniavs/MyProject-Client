@@ -17,7 +17,6 @@ function Home() {
   const [photoPositionY, setPhotoPositionY] = useState('15%');
   const [descriptionPositionX, setDescriptionPositionX] = useState('5%');
   const [descriptionPositionY, setDescriptionPositionY] = useState('5%');
-  const [descriptionScroll, setDescriptionScroll] = useState('hidden');
   const [cardOpacity, setCardOpacity] = useState('0');
   const [textOpacity, setTextOpacity] = useState('1');
 
@@ -32,7 +31,6 @@ function Home() {
       setBackGroundColor('#e4e4e4');
       setCardOpacity('1');
       setTextOpacity('0');
-      setDescriptionScroll('auto');
       document.removeEventListener('scroll', changeStyleAfterScroll);
     }
   }
@@ -96,7 +94,8 @@ function Home() {
           <FlexContainer
             className="my-personal-description-container"
             zindex={2}
-            height="60%"
+            height="fit-content"
+            padding="0 0 5% 0"
             width="40%"
             boxShadow="0 8px 18px rgba(0,0,0,.16)"
             borderRadius="30px"
@@ -111,7 +110,7 @@ function Home() {
 
             <H2 align="center" padding="5% 0"> Brief description about me! </H2>
             <Container width="75%">
-              <Text align="center" height="90%" overY={descriptionScroll}>
+              <Text className="my-personal-description-text" align="center" height="90%">
                 Hello there!
                 I&apos;m glad to see you right here, nice to meet you!
                 So, I&apos;m Giovani Albuquerque and I really like to study and build some
@@ -127,14 +126,6 @@ function Home() {
                 series and animes my favorite are Game Of Thrones as a serie, Saving Private Ryan
                 as a movie and Attack On Titan / Dragon Ball as anime!
                 <br />
-                <br />
-                And the last but not the least, about my favorite books! Since 2017 I&apos;ve
-                started to pratice my reading habit, and to do that, I started reading Game of
-                Thrones haha! Was an awesome series of books that pulled me into the world
-                of the literature. After GoT, I started to read more about fantasy world, reading
-                great titles like Lord Of The Rings, The Hobbit and Warcraft books! Nowadays
-                I&apos;m reading a techinical book to help me improve my Developer skills, this one
-                is the famous Clean Code of uncle bob!
               </Text>
             </Container>
           </FlexContainer>
