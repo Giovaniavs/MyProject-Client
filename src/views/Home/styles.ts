@@ -15,6 +15,10 @@ const HomeContainer = styled(FlexContainer)`
       right: 5%;
       width: 90%;
     }
+
+    .my-personal-description-text {
+      font-size: .8rem;
+    }
   }
 `;
 
