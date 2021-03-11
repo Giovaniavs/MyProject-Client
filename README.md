@@ -36,18 +36,9 @@ To run the project for the **first** time you must follow this steps:
 git clone https://github.com/Giovaniavs/MyProject-Client.git
 ```
 
-2. Install the dependencies and start the npm project
+2. Install the dependencies and run the project
 ```bash
-yarn install
-```
-
----
-
-## Running the project
-To run the project, just follow this simple command on the client terminal:
-
-```bash
-yarn start
+yarn install && yarn start
 ```
 
 ---
