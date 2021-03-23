@@ -113,16 +113,17 @@ function Home() {
               <Text className="my-personal-description-text" align="center" height="90%">
                 Hello there!
                 I&apos;m glad to see you right here, nice to meet you!
-                So, I&apos;m Giovani Albuquerque and I really like to study and build some
-                web applications by frequently using react.js in the front-end and node.js plus
-                expressin the back-end! Nowadays I&apos;m so excited to learn more about DevOps
-                and improve my backend skills, so, let&apos;s study and talk with the best
-                friend of the developer, the Google!
+                So, my name is Giovani Albuquerque and I am someone
+                that really likes to study and build some web applications.
+                The tools I use to build these web systems are React.js in
+                the front-end and Node.js plus express in the back-end.
+                Nowadays I&apos;m so excited to learn more about DevOps,
+                Infrastructure and Cloud Computing.
                 <br />
                 <br />
-                About my hobbies, I am someone that likes to play games, preferably playing
+                About my hobbies, I really like to play games, preferably playing
                 by pc, like DayZ, Battlefield, Dota 2, The Witcher and some others. My favorite
-                style of game is RPG without a doubt! But I&apos;m a FPS fan too! About movies,
+                style of game is RPG without a doubt, but I&apos;m a FPS fan too! About movies,
                 series and animes my favorite are Game Of Thrones as a serie, Saving Private Ryan
                 as a movie and Attack On Titan / Dragon Ball as anime!
                 <br />

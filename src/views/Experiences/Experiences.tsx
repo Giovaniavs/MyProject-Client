@@ -38,7 +38,7 @@ function Experiences() {
             date="2019 - Start"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           >
-            <H2 className="vertical-timeline-element-title">Mathematics and Physics Monitor</H2>
+            <H2 className="vertical-timeline-element-title">Mathematic and Physics Tutor</H2>
             <H2 className="vertical-timeline-element-subtitle">
               {' '}
               <a style={{ color: 'rgb(33, 150, 243)' }} href="https://oficinadeestudos.miedu.com.br/#/landing/saibamais/0" target="_blank"> Oficina de Estudos</a>
@@ -46,8 +46,8 @@ function Experiences() {
               - Recife, PE
             </H2>
             <Text>
-              Acting as a monitor I&apos;ve learned so much about teaching and conversation skills,
-              because help different people with different dificults is a hard task to do!
+              Acting as a tutor, I&apos;ve learned so much about teaching and conversation skills,
+              which are soft skills that help me a lot in my professional life nowadays.
             </Text>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -64,7 +64,12 @@ function Experiences() {
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
           >
             <H2 className="vertical-timeline-element-title">Started the Graduation in Information Systems</H2>
-            <H2 className="vertical-timeline-element-subtitle">Federal University of Pernambuco</H2>
+            <H2 className="vertical-timeline-element-subtitle">
+              {' '}
+              <a style={{ color: 'rgb(233, 30, 99)' }} href="https://www.ufpe.br/UFPE" target="_blank">UFPE</a>
+              {' '}
+              - Federal University of Pernambuco
+            </H2>
             <Text>
               I started my studies in one of the best centers of techonology in the Latin America,
               {' '}
@@ -96,8 +101,7 @@ function Experiences() {
             <Text>
               It was my first experience as a developer in the real market. Be a part of a Junior
               Enterprise was, without a doubt, the best choice that I made! I&apos;ve learned a
-              lot of things about Reactjs - JavaScript in the frontend and Nodejs - Express
-              in the backend.
+              lot things about the Frontend and Backend technologies, like React and Node.
             </Text>
           </VerticalTimelineElement>
           <VerticalTimelineElement
