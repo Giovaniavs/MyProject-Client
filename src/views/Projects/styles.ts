@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 import {
   FlexContainer,
-  H1,
-  Text,
 } from '../../global/globalStyle';
 
 interface Props {

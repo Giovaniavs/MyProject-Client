@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React, { useState } from 'react';
+import React from 'react';
 
 import {
   FlexContainer,
