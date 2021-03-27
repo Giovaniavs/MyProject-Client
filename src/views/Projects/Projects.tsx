@@ -1,0 +1,54 @@
+/* eslint-disable react/jsx-no-target-blank */
+import React, { useState } from 'react';
+
+import {
+  FlexContainer,
+  H1,
+  Text,
+} from '../../global/globalStyle';
+
+import { ProjectCard } from './styles';
+
+export default function Projects() {
+  const projects = [
+    { name: 'This Single Page', link: 'https://github.com/Giovaniavs/MyProject-Client', color: '#08e0e0' },
+    { name: 'Moveit', link: 'https://github.com/Giovaniavs/Moveit', color: '#5965e0' },
+    { name: 'Microservice JWT', link: 'https://github.com/Giovaniavs/Microservice-JWT-Auth', color: '#2ac458' },
+  ];
+
+  return (
+    <FlexContainer
+      id="Projects"
+      height="100vh"
+      direction="column"
+      align="center"
+      backgroundColor="#e4e4e4"
+      padding="5% 20%"
+    >
+      <H1
+        width="70vw"
+        align="center"
+        borderTop="1px solid #aaaaaa"
+        padding="4rem 0 0 0"
+      >
+        My particular projects
+      </H1>
+      <Text
+        align="center"
+        margin="1rem 0 0 0"
+        height="50px"
+      >
+        Explore the repositories of these particular projects!
+      </Text>
+      <FlexContainer align="center" justify="space-evenly" wrap="wrap" backgroundColor="inhierit">
+        {projects.map((e) => (
+          <a style={{ textDecoration: 'none', color: 'unset' }} href={e.link} target="_blank">
+            <ProjectCard key={e.name} effectAfterHover={e.color}>
+              <Text textSize="1.5rem" width="fit-content" align="center">{e.name}</Text>
+            </ProjectCard>
+          </a>
+        ))}
+      </FlexContainer>
+    </FlexContainer>
+  );
+}

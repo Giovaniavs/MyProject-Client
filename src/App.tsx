@@ -1,6 +1,11 @@
 import React from 'react';
 import { Navbar, Footer } from './components';
-import { Home, Experiences, Soundtrack } from './views';
+import {
+  Home,
+  Experiences,
+  Soundtrack,
+  Projects,
+} from './views';
 
 const App: React.FC = () => (
   <>
@@ -8,6 +13,7 @@ const App: React.FC = () => (
     <Home />
     <Experiences />
     <Soundtrack />
+    <Projects />
     <Footer />
   </>
 );

@@ -66,6 +66,9 @@ function Navbar() {
         </a>
         <NavbarList>
           <NavbarItem>
+            <ItemLink href="#Projects"> Projects </ItemLink>
+          </NavbarItem>
+          <NavbarItem>
             <ItemLink href="#Soundtrack"> Soundtrack </ItemLink>
           </NavbarItem>
           <NavbarItem>
@@ -94,12 +97,14 @@ function Navbar() {
               <SidebarItem onClick={() => { setIsSidebarActive('100%'); setHamburguerButtonIsActive(false); }}>
                 <ItemLink href="#Soundtrack"> Soundtrack </ItemLink>
               </SidebarItem>
+              <SidebarItem onClick={() => { setIsSidebarActive('100%'); setHamburguerButtonIsActive(false); }}>
+                <ItemLink href="#Projects"> Projects </ItemLink>
+              </SidebarItem>
             </SidebarContainer>
           </>
         )}
       </NavbarContainer>
     </>
-
   );
 }
 
