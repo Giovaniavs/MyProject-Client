@@ -5,6 +5,7 @@ import {
   Experiences,
   Soundtrack,
   Projects,
+  HowNerdAreYou,
 } from './views';
 
 const App: React.FC = () => (
@@ -14,6 +15,7 @@ const App: React.FC = () => (
     <Experiences />
     <Soundtrack />
     <Projects />
+    <HowNerdAreYou />
     <Footer />
   </>
 );
