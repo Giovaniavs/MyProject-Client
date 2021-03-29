@@ -1,5 +1,5 @@
 # MyProject Software Client
-This is my single project created with React, Styled Component and Typescript to improve my experience and skill with theses technologies. Also it was made to present me for everyone that came here too!
+This is my single project created with React, Styled Component and Typescript to improve my experience and skill with theses technologies. Also it was made to present me for everyone that came here!
 
 - [Deployed on Netlify](https://giovanialbuquerque.site/)
 
@@ -51,11 +51,11 @@ They can be:
 + develop
 
 ### Commits
-Must begin with the name of the branch you developed on, following the model: _“Feature(name-of-feature): rest of commit…”._
+Must begin with the name of the section you developed on, following the model: _“Feature(sectionChanged): rest of commit…”._
 
 Must be simple and show briefly what you just did.
 
-Ex: `git commit -m "Feature(home): Added the home in the first section of the landing page"`
+Ex: `git commit -m "Feature(landingPage): Added the home in the first section of the landing page"`
 
 
 ---

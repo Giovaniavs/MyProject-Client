@@ -7,7 +7,6 @@ export default function HowNerdAreYou() {
   return (
     <FlexContainer
       height="fit-content"
-      width="100vw"
       justify="center"
       backgroundColor="#e4e4e4"
       padding="0 0 3% 0"
