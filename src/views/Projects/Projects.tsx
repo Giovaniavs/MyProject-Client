@@ -40,7 +40,13 @@ export default function Projects() {
       >
         Explore the repositories of these particular projects!
       </Text>
-      <FlexContainer align="center" justify="space-evenly" wrap="wrap" backgroundColor="inhierit">
+      <FlexContainer
+        align="center"
+        justify="space-evenly"
+        wrap="wrap"
+        backgroundColor="inhierit"
+        maxWidth="750px"
+      >
         {projects.map((e) => (
           <a style={{ textDecoration: 'none', color: 'unset' }} href={e.link} target="_blank">
             <ProjectCard key={e.name} effectAfterHover={e.color}>
