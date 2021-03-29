@@ -19,7 +19,7 @@ export default function Projects() {
   return (
     <FlexContainer
       id="Projects"
-      height="100vh"
+      height="fit-content"
       direction="column"
       align="center"
       backgroundColor="#e4e4e4"
@@ -49,7 +49,7 @@ export default function Projects() {
       >
         {projects.map((e) => (
           <a style={{ textDecoration: 'none', color: 'unset' }} href={e.link} target="_blank">
-            <ProjectCard key={e.name} effectAfterHover={e.color}>
+            <ProjectCard key={e.name} effectAfterHover={e.color} margin="4% 0">
               <Text textSize="1.5rem" width="fit-content" align="center">{e.name}</Text>
             </ProjectCard>
           </a>

@@ -21,7 +21,7 @@ export const ProjectCard = styled(FlexContainer)`
     color: ${(p: Props) => p.effectAfterHover};
   }
 
-  @media(max-height: 720px) {
+  @media(max-width: 420px) {
     height: 80px;
   }
 `;

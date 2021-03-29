@@ -12,6 +12,10 @@ function Soundtrack() {
   const [cardHeight, setCardHeight] = useState(380);
   const smallerScreen = 860;
   const currentScreen = screen.height;
+  const cardMusicSyle = {
+    borderRadius: '20px',
+    boxShadow: '0 3px 12px rgb(0 0 0 / 16%)',
+  };
 
   useEffect(() => {
     if (currentScreen <= smallerScreen) {
@@ -48,9 +52,9 @@ function Soundtrack() {
           margin="0 auto"
           maxWidth="1200px"
         >
-          <iframe title="My Metal Soundtrack" src="https://open.spotify.com/embed/playlist/4cQP3f5RJl0vSZa4AKOs66" style={{ borderRadius: '20px', boxShadow: '0 28px 48px rgba(0,0,0,.16)' }} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
-          <iframe title="My LoFi Soundtrack" src="https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM" style={{ borderRadius: '20px', boxShadow: '0 28px 48px rgba(0,0,0,.16)' }} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
-          <iframe title="My Rock Soundtrack" src="https://open.spotify.com/embed/playlist/4gb80lzNzGX6GpjR3GAoqt" style={{ borderRadius: '20px', boxShadow: '0 28px 48px rgba(0,0,0,.16)' }} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
+          <iframe title="My Metal Soundtrack" src="https://open.spotify.com/embed/playlist/4cQP3f5RJl0vSZa4AKOs66" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
+          <iframe title="My LoFi Soundtrack" src="https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
+          <iframe title="My Rock Soundtrack" src="https://open.spotify.com/embed/playlist/4gb80lzNzGX6GpjR3GAoqt" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
         </FlexContainer>
       </SoundtrackContainer>
     </>
