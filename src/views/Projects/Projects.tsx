@@ -11,9 +11,10 @@ import { ProjectCard } from './styles';
 
 export default function Projects() {
   const projects = [
-    { name: 'This Single Page', link: 'https://github.com/Giovaniavs/MyProject-Client', color: '#08e0e0' },
+    { name: 'This Single Page', link: 'https://github.com/Giovaniavs/MyProject-Client', color: '#2fd3d3' },
     { name: 'Moveit', link: 'https://github.com/Giovaniavs/Moveit', color: '#5965e0' },
-    { name: 'Microservice JWT', link: 'https://github.com/Giovaniavs/Microservice-JWT-Auth', color: '#2ac458' },
+    { name: 'Microservice JWT', link: 'https://github.com/Giovaniavs/Microservice-JWT-Auth', color: '#ff6ada' },
+    { name: 'Plant Manager', link: 'https://github.com/Giovaniavs/PlantManager', color: '#2ac458' },
   ];
 
   return (
