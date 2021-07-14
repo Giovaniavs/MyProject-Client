@@ -12,9 +12,10 @@ import { ProjectCard } from './styles';
 export default function Projects() {
   const projects = [
     { name: 'This Single Page', link: 'https://github.com/Giovaniavs/MyProject-Client', color: '#2fd3d3' },
+    { name: 'Plant Manager', link: 'https://github.com/Giovaniavs/PlantManager', color: '#2ac458' },
     { name: 'Moveit', link: 'https://github.com/Giovaniavs/Moveit', color: '#5965e0' },
     { name: 'Microservice JWT', link: 'https://github.com/Giovaniavs/Microservice-JWT-Auth', color: '#ff6ada' },
-    { name: 'Plant Manager', link: 'https://github.com/Giovaniavs/PlantManager', color: '#2ac458' },
+    { name: 'Capyba Challange', link: 'https://github.com/Giovaniavs/Capyba_Challenge', color: '#2ac458' },
   ];
 
   return (
@@ -36,20 +37,19 @@ export default function Projects() {
       </H1>
       <Text
         align="center"
-        margin="1rem 0 0 0"
+        margin="1rem 0 3rem 0"
         height="50px"
       >
-        Explore the repositories of these particular projects!
+        Explore the repositories of particular projects!
       </Text>
       <FlexContainer
-        align="center"
         justify="space-evenly"
         wrap="wrap"
         backgroundColor="inhierit"
         maxWidth="750px"
       >
         {projects.map((e) => (
-          <a style={{ textDecoration: 'none', color: 'unset' }} href={e.link} target="_blank">
+          <a style={{ textDecoration: 'none', color: 'unset', height: 'fit-content' }} href={e.link} target="_blank">
             <ProjectCard key={e.name} effectAfterHover={e.color} margin="4% 0">
               <Text textSize="1.5rem" width="fit-content" align="center">{e.name}</Text>
             </ProjectCard>
