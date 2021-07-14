@@ -114,15 +114,42 @@ function Experiences() {
               borderRadius: '15px',
             }}
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-            date="2021 - Actual"
+            date="2021.2"
             iconStyle={{ background: '#7bdf54', color: '#fff' }}
           >
             <H2 className="vertical-timeline-element-title">Tech Leader</H2>
             <H2 className="vertical-timeline-element-subtitle"> CITi - UFPE, CIn</H2>
             <Text>
-              As a tech leader I&apos;m responsible to: Teach the new developers in the enterprise
-              to grow up fastly, Work as a Quality Analist of the squad, Lead the area and make it
-              better for the future generation of the CITi!
+              As a tech leader I was responsible to: Teach the new developers in the enterprise
+              to grow up fastly, Work as a Quality Analist in my squad, Lead the area and make it
+              better for the future CITi&apos;s generations!
+            </Text>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{
+              background: '#fff',
+              borderTop: '3px solid #7bdf54',
+              color: '#000000',
+              fontFamily: 'Roboto',
+              borderRadius: '15px',
+            }}
+            contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+            date="2021.2 - Actual"
+            iconStyle={{ background: '#7bdf54', color: '#fff' }}
+          >
+            <H2 className="vertical-timeline-element-title">Development Intern</H2>
+            <H2 className="vertical-timeline-element-subtitle">
+              {' '}
+              <a style={{ color: '#7bdf54' }} href="https://capyba.com/" target="_blank">Capyba Software</a>
+              {' '}
+              - Recife, PE
+            </H2>
+            <Text>
+              This is my first experience in the Senior Technology Scene, talk and work with more
+              experienced professional is being very helpful for my growth in the area. Here we work
+              with Angular, Ionic, Django and Flutter, these are tools that i&apos;ve never handled
+              before, but I&apos;m just here to learn more about it!
             </Text>
           </VerticalTimelineElement>
         </VerticalTimeline>
