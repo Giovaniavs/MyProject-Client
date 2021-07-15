@@ -8,7 +8,7 @@ const SoundtrackContainer = styled(Container)`
   .slick-next:before {
     color: black;
   }
-
+  
   @media(max-width: 720px) {
     h1 {
       margin: 0 auto 0;

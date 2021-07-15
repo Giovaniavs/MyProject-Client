@@ -25,7 +25,7 @@ export default function Projects() {
       direction="column"
       align="center"
       backgroundColor="#e4e4e4"
-      padding="5% 20%"
+      padding="10% 20%"
     >
       <H1
         width="70vw"
@@ -49,7 +49,13 @@ export default function Projects() {
         maxWidth="750px"
       >
         {projects.map((e) => (
-          <a style={{ textDecoration: 'none', color: 'unset', height: 'fit-content' }} href={e.link} target="_blank">
+          <a
+            style={{
+              textDecoration: 'none', color: 'unset', height: 'fit-content', margin: '20px 10px',
+            }}
+            href={e.link}
+            target="_blank"
+          >
             <ProjectCard key={e.name} effectAfterHover={e.color} margin="4% 0">
               <Text textSize="1.5rem" width="fit-content" align="center">{e.name}</Text>
             </ProjectCard>

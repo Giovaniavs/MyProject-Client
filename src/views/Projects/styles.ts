@@ -10,9 +10,8 @@ interface Props {
 
 export const ProjectCard = styled(FlexContainer)`
   height: 150px;
-  width: 150px;
-  margin-right: 10px;
-  margin-bottom: 20px;
+  width: 180px;
+  padding: 5% 10%;
   align-items: center;
   justify-content: center;
   box-shadow: 0 3px 12px rgb(0 0 0 / 16%);
