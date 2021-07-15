@@ -112,21 +112,18 @@ function Home() {
             <Container width="75%">
               <Text className="my-personal-description-text" align="center" height="90%">
                 Hello there!
-                I&apos;m glad to see you right here, nice to meet you!
-                So, my name is Giovani Albuquerque and I am someone
-                that really likes to study and build some web applications.
-                Nowadays I&apos;m so excited to learn more about Dev Web and
-                Mobile in all directions (front, back and devops) because I belive
-                in the digital transofrmation and I will help this revolution acting
-                in the vanguard, in the code development!
-
+                I&apos;m glad to see you right here, nice to meet you! So,
+                my name is Giovani Albuquerque and I am someone that likes to study and
+                build some web applications. Nowadays I&apos;m so excited to learn more about
+                Dev Web and Mobile in all directions (front, back, and DevOps) because I
+                believe in the digital transformation and I will help this revolution by
+                acting in the vanguard, in the code development!
                 <br />
                 <br />
-                About my hobbies, I really like to play games, preferably playing
-                by pc, like DayZ, Battlefield, Dota 2, The Witcher and some others. My favorite
-                style of game is RPG without a doubt, but I&apos;m a FPS fan too! About movies,
-                series and animes my favorite are Game Of Thrones as a serie, Saving Private Ryan
-                as a movie and Dragon Ball as anime!
+                About my hobbies, I like to play games, preferably playing by pc, like DayZ,
+                Battlefield, Dota 2, The Witcher, and some others. My favorite style of game is RPG
+                without a doubt, but I&apos;m an FPS fan too! About movies, series, and animes my favorite
+                are Game Of Thrones as a series, Saving Private Ryan as a movie, and Dragon Ball as anime!
                 <br />
               </Text>
             </Container>
