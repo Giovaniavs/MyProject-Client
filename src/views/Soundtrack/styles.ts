@@ -2,6 +2,13 @@ import styled from 'styled-components';
 import { Container } from '../../global/globalStyle';
 
 const SoundtrackContainer = styled(Container)`
+  .slick-prev:before {
+  color: black;
+  }
+  .slick-next:before {
+    color: black;
+  }
+
   @media(max-width: 720px) {
     h1 {
       margin: 0 auto 0;
@@ -10,15 +17,6 @@ const SoundtrackContainer = styled(Container)`
 
     p {
       margin: 1rem 0 3rem;
-    }
-
-    .soundtrack-section{
-      flex-wrap: wrap;
-      height: 70%;
-    }
-
-    iframe {
-      height: 80px;
     }
   }
 `;

@@ -1,7 +1,13 @@
+/* eslint-disable no-unneeded-ternary */
+/* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable no-restricted-globals */
 import React, { useState, useEffect } from 'react';
+import Slider from 'react-slick';
+
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 import {
-  FlexContainer,
   H1,
   Text,
 } from '../../global/globalStyle';
@@ -15,6 +21,14 @@ function Soundtrack() {
   const cardMusicSyle = {
     borderRadius: '20px',
     boxShadow: '0 3px 12px rgb(0 0 0 / 16%)',
+  };
+  const settings = {
+    dots: true,
+    infinite: true,
+    arrows: currentScreen === 568 ? false : true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
   };
 
   useEffect(() => {
@@ -43,19 +57,19 @@ function Soundtrack() {
           Soudtrack!
         </H1>
         <Text align="center" margin="1rem 0 4%"> Stop and enjoy some good music! </Text>
-        <FlexContainer
-          className="soundtrack-section"
-          backgroundColor="inhierit"
-          justify="space-evenly"
-          align="flex-start"
-          height="fit-content"
-          margin="0 auto"
-          maxWidth="1200px"
-        >
-          <iframe title="My Metal Soundtrack" src="https://open.spotify.com/embed/playlist/4cQP3f5RJl0vSZa4AKOs66" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
-          <iframe title="My LoFi Soundtrack" src="https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
-          <iframe title="My Rock Soundtrack" src="https://open.spotify.com/embed/playlist/4gb80lzNzGX6GpjR3GAoqt" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
-        </FlexContainer>
+        <div style={{ width: '300px', margin: '0 auto' }}>
+          <Slider {...settings}>
+            <div>
+              <iframe title="My Metal Soundtrack" src="https://open.spotify.com/embed/playlist/4cQP3f5RJl0vSZa4AKOs66" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
+            </div>
+            <div>
+              <iframe title="My LoFi Soundtrack" src="https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
+            </div>
+            <div>
+              <iframe title="My Rock Soundtrack" src="https://open.spotify.com/embed/playlist/4gb80lzNzGX6GpjR3GAoqt" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
+            </div>
+          </Slider>
+        </div>
       </SoundtrackContainer>
     </>
   );

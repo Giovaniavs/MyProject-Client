@@ -122,8 +122,9 @@ function Home() {
                 <br />
                 About my hobbies, I like to play games, preferably playing by pc, like DayZ,
                 Battlefield, Dota 2, The Witcher, and some others. My favorite style of game is RPG
-                without a doubt, but I&apos;m an FPS fan too! About movies, series, and animes my favorite
-                are Game Of Thrones as a series, Saving Private Ryan as a movie, and Dragon Ball as anime!
+                without a doubt, but I&apos;m an FPS fan too! About movies, series, and animes my
+                favorite are Game Of Thrones as a series, Saving Private Ryan as a movie,
+                and Dragon Ball as anime!
                 <br />
               </Text>
             </Container>
