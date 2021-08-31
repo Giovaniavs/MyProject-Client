@@ -21,8 +21,8 @@ function Navbar() {
   const [hamburguerButtonIsActive, setHamburguerButtonIsActive] = useState(false);
   const [isMobile, setisMobile] = useState<boolean>();
   const [isSidebarActive, setIsSidebarActive] = useState('100%');
-  const mobileScreen = 720;
   const currentScreen = screen.width;
+  const mobileScreen = 720;
 
   document.addEventListener('scroll', () => {
     if (window.scrollY === 0) {

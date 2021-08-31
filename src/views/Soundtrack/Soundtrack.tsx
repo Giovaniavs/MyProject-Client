@@ -25,7 +25,7 @@ function Soundtrack() {
   const settings = {
     dots: true,
     infinite: true,
-    arrows: currentScreen === 568 ? false : true,
+    arrows: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -57,16 +57,22 @@ function Soundtrack() {
           Soudtrack!
         </H1>
         <Text align="center" margin="1rem 0 4%"> Stop and enjoy some good music! </Text>
-        <div style={{ width: '300px', margin: '0 auto' }}>
+        <div>
           <Slider {...settings}>
             <div>
-              <iframe title="My Metal Soundtrack" src="https://open.spotify.com/embed/playlist/4cQP3f5RJl0vSZa4AKOs66" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
+              <iframe key="music-1" title="My Rock Soundtrack" src="https://open.spotify.com/embed/playlist/4gb80lzNzGX6GpjR3GAoqt" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
             </div>
             <div>
-              <iframe title="My LoFi Soundtrack" src="https://open.spotify.com/embed/playlist/0vvXsWCC9xrXsKd4FyS8kM" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
+              <iframe key="music-2" title="My LoFi Soundtrack" src="https://open.spotify.com/embed/playlist/5oW7eVoraqbiMqxCqGnN5N" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
             </div>
             <div>
-              <iframe title="My Rock Soundtrack" src="https://open.spotify.com/embed/playlist/4gb80lzNzGX6GpjR3GAoqt" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
+              <iframe key="music-3" title="My Metal Soundtrack" src="https://open.spotify.com/embed/playlist/4cQP3f5RJl0vSZa4AKOs66" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
+            </div>
+            <div>
+              <iframe key="music-4" title="My Metal Soundtrack" src="https://open.spotify.com/embed/playlist/0ARSIGpbnsf4Dmq6mm6z0R" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
+            </div>
+            <div>
+              <iframe key="music-4" title="My Metal Soundtrack" src="https://open.spotify.com/embed/playlist/7wO8vafBwBO5DAkRZyqr5x" style={cardMusicSyle} width="300" height={cardHeight} frameBorder="0" allow="encrypted-media" />
             </div>
           </Slider>
         </div>

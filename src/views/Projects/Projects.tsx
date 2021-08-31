@@ -1,5 +1,6 @@
+/* eslint-disable no-restricted-globals */
 /* eslint-disable react/jsx-no-target-blank */
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import {
   FlexContainer,
@@ -10,6 +11,18 @@ import {
 import { ProjectCard } from './styles';
 
 export default function Projects() {
+  const [isMobile, setisMobile] = useState<boolean>();
+  const currentScreen = screen.width;
+  const mobileScreen = 720;
+
+  useEffect(() => {
+    if (currentScreen <= mobileScreen) {
+      setisMobile(true);
+    } else {
+      setisMobile(false);
+    }
+  }, [currentScreen]);
+
   const projects = [
     { name: 'This Single Page', link: 'https://github.com/Giovaniavs/MyProject-Client', color: '#2fd3d3' },
     { name: 'Plant Manager', link: 'https://github.com/Giovaniavs/PlantManager', color: '#2ac458' },
@@ -42,26 +55,30 @@ export default function Projects() {
       >
         Explore the repositories of particular projects!
       </Text>
-      <FlexContainer
-        justify="space-evenly"
-        wrap="wrap"
-        backgroundColor="inhierit"
-        maxWidth="750px"
-      >
-        {projects.map((e) => (
-          <a
-            style={{
-              textDecoration: 'none', color: 'unset', height: 'fit-content', margin: '20px 10px',
-            }}
-            href={e.link}
-            target="_blank"
-          >
-            <ProjectCard key={e.name} effectAfterHover={e.color} margin="4% 0">
-              <Text textSize="1.5rem" width="fit-content" align="center">{e.name}</Text>
-            </ProjectCard>
-          </a>
-        ))}
+      <FlexContainer backgroundColor="inhierit" justify="center" maxWidth="900px">
+        <FlexContainer
+          wrap="wrap"
+          backgroundColor="inhierit"
+          maxWidth="750px"
+          margin={isMobile ? ('unset') : ('0 0 0 15%')}
+        >
+          {projects.map((e) => (
+            <a
+              key={e.name}
+              style={{
+                textDecoration: 'none', color: 'unset', height: 'fit-content', margin: '20px 10px',
+              }}
+              href={e.link}
+              target="_blank"
+            >
+              <ProjectCard effectAfterHover={e.color} margin="4% 0">
+                <Text textSize="1.5rem" width="fit-content" align="center">{e.name}</Text>
+              </ProjectCard>
+            </a>
+          ))}
+        </FlexContainer>
       </FlexContainer>
+
     </FlexContainer>
   );
 }

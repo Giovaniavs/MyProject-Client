@@ -8,6 +8,11 @@ const SoundtrackContainer = styled(Container)`
   .slick-next:before {
     color: black;
   }
+
+  .slick-slide {
+      display: grid;
+      place-items: center;
+  }
   
   @media(max-width: 720px) {
     h1 {
