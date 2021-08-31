@@ -111,13 +111,12 @@ function Home() {
             <H2 align="center" padding="5% 0"> Brief description about me! </H2>
             <Container width="75%">
               <Text className="my-personal-description-text" align="center" height="90%">
-                Hello there!
-                I&apos;m glad to see you right here, nice to meet you! So,
-                my name is Giovani Albuquerque and I am someone that likes to study and
-                build some web applications. Nowadays I&apos;m so excited to learn more about
-                Dev Web and Mobile in all directions (front, back, and DevOps) because I
-                believe in the digital transformation and I will help this revolution by
-                acting in the vanguard, in the code development!
+                Hello there! I&apos;m glad to see you right here, nice to meet you! So, my name is
+                Giovani Albuquerque and I am someone that realy like to study and build some
+                web applications. Nowadays I&apos;m so excited to learn more about Dev Web
+                Dev Mobile and DevOps because I believe that these three pillars united
+                are very important to understand deepthly the new world of software development
+                we live in.
                 <br />
                 <br />
                 About my hobbies, I like to play games, preferably playing by pc, like DayZ,
