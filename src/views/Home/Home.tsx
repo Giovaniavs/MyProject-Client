@@ -113,7 +113,7 @@ function Home() {
               <Text className="my-personal-description-text" align="center" height="90%">
                 Hello there! I&apos;m glad to see you right here, nice to meet you! So, my name is
                 Giovani Albuquerque I realy like to study and build software applications.
-                Nowadays I&apos;m so excited to learn more about Dev Web
+                Nowadays I&apos;m so excited to learn more about Dev Web,
                 Dev Mobile and DevOps because I believe that these three pillars united
                 are very important to understand deepthly the new world of software development
                 we live in.
