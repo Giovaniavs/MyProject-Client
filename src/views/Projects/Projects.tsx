@@ -38,7 +38,7 @@ export default function Projects() {
       direction="column"
       align="center"
       backgroundColor="#e4e4e4"
-      padding="10% 20%"
+      padding={isMobile ? ('10% 20%') : ('5% 0')}
     >
       <H1
         width="70vw"
