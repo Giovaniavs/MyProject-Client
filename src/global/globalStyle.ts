@@ -1,4 +1,15 @@
-import styled from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
+
+export default createGlobalStyle`
+  ::-webkit-scrollbar {
+    width: .5rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #636e72;
+    border-radius: .6rem;
+  }
+`;
 
 interface Props {
   backgroundColor?: string,

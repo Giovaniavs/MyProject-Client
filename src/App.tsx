@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Footer } from './components';
+import GlobalStyle from './global/globalStyle';
 import {
   Home,
   Experiences,
@@ -17,6 +18,7 @@ const App: React.FC = () => (
     <Projects />
     <HowNerdAreYou />
     <Footer />
+    <GlobalStyle />
   </>
 );
 

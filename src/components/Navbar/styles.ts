@@ -54,7 +54,7 @@ const ItemLink = styled.a`
   text-align: center;
   align-items: center;
   justify-content: center;
-  height: 80%;
+  height: 60%;
   width: 100%;
   padding: 0 10px;
   text-decoration: none;
