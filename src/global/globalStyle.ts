@@ -2,11 +2,11 @@ import styled, { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   ::-webkit-scrollbar {
-    width: .5rem;
+    width: .6rem;
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #636e72;
+    background: rgb(171 171 171);
     border-radius: .6rem;
   }
 `;
