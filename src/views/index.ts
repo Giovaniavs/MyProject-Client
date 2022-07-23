@@ -3,6 +3,7 @@ import { Experiences } from './Experiences';
 import { Soundtrack } from './Soundtrack';
 import { Projects } from './Projects';
 import { HowNerdAreYou } from './HowNerdAreYou';
+import { Publications } from './Publications';
 
 export {
   Home,
@@ -10,4 +11,5 @@ export {
   Soundtrack,
   Projects,
   HowNerdAreYou,
+  Publications,
 };

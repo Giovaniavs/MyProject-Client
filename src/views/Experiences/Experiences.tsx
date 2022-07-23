@@ -35,7 +35,7 @@ function Experiences() {
               borderRadius: '15px',
             }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="2019 - Start"
+            date="2019 - 7 Months"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           >
             <H2 className="vertical-timeline-element-title">Mathematic and Physics Tutor</H2>
@@ -60,7 +60,7 @@ function Experiences() {
               borderRadius: '15px',
             }}
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-            date="2019"
+            date="2019 - 3 Years until now"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
           >
             <H2 className="vertical-timeline-element-title">Started the Graduation in Information Systems</H2>
@@ -88,7 +88,7 @@ function Experiences() {
               borderRadius: '15px',
             }}
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-            date="2020.2 - 2021"
+            date="2020 - 6 Months"
             iconStyle={{ background: '#7bdf54', color: '#fff' }}
           >
             <H2 className="vertical-timeline-element-title">Full Stack Developer</H2>
@@ -114,7 +114,7 @@ function Experiences() {
               borderRadius: '15px',
             }}
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-            date="2021.2"
+            date="2021 - 6 Months"
             iconStyle={{ background: '#7bdf54', color: '#fff' }}
           >
             <H2 className="vertical-timeline-element-title">Tech Leader</H2>
@@ -129,16 +129,16 @@ function Experiences() {
             className="vertical-timeline-element--work"
             contentStyle={{
               background: '#fff',
-              borderTop: '3px solid #7bdf54',
+              borderTop: '3px solid #b2ff93',
               color: '#000000',
               fontFamily: 'Roboto',
               borderRadius: '15px',
             }}
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-            date="2021.2 - Actual"
-            iconStyle={{ background: '#7bdf54', color: '#fff' }}
+            date="2021 - 7 Months"
+            iconStyle={{ background: '#b2ff93', color: '#fff' }}
           >
-            <H2 className="vertical-timeline-element-title">Development Intern</H2>
+            <H2 className="vertical-timeline-element-title">Software Development Intern</H2>
             <H2 className="vertical-timeline-element-subtitle">
               {' '}
               <a style={{ color: '#7bdf54' }} href="https://capyba.com/" target="_blank">Capyba Software</a>
@@ -146,10 +146,56 @@ function Experiences() {
               - Recife, PE
             </H2>
             <Text>
-              This is my first experience in the Senior Technology Scene, talk and work with more
-              experienced professional is being very helpful for my growth in the area. Here we work
-              with Angular, Ionic, Django and Flutter, these are tools that i&apos;ve never handled
-              before, but I&apos;m just here to learn more about it!
+              Worked with three main frameworks, which were Angular, Django and Flutter.
+              The focus was on the Mobile Software Development using the Dart/Flutter
+              based on the Clean Architecture.
+            </Text>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{
+              background: '#fff',
+              borderTop: '3px solid #b2ff93',
+              color: '#000000',
+              fontFamily: 'Roboto',
+              borderRadius: '15px',
+            }}
+            contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+            date="2021 - 5 Months"
+            iconStyle={{ background: '#b2ff93', color: '#fff' }}
+          >
+            <H2 className="vertical-timeline-element-title">Software Development Trainee</H2>
+            <H2 className="vertical-timeline-element-subtitle">
+              Capyba Software - Recife, PE
+            </H2>
+            <Text>
+              Worked deeply with the Flutter framework in
+              a specific project, which made me increase my proficiency
+              as a software developer and as a flutter developer.
+              I learned a lot about the Clean Architecture and how to use it in the project.
+            </Text>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{
+              background: '#fff',
+              borderTop: '3px solid #b2ff93',
+              color: '#000000',
+              fontFamily: 'Roboto',
+              borderRadius: '15px',
+            }}
+            contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+            date="2022 - Actual"
+            iconStyle={{ background: '#b2ff93', color: '#fff' }}
+          >
+            <H2 className="vertical-timeline-element-title">Software Development Junior</H2>
+            <H2 className="vertical-timeline-element-subtitle">
+              Capyba Software - Recife, PE
+            </H2>
+            <Text>
+              Untill now, all I have to say is that my responsibilites are
+              increasing and I&apos;m learning new things everyday, not only
+              as a software developer but also as a professionial of Techology.
             </Text>
           </VerticalTimelineElement>
         </VerticalTimeline>

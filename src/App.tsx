@@ -7,6 +7,7 @@ import {
   Soundtrack,
   Projects,
   HowNerdAreYou,
+  Publications,
 } from './views';
 
 const App: React.FC = () => (
@@ -16,6 +17,7 @@ const App: React.FC = () => (
     <Experiences />
     <Soundtrack />
     <Projects />
+    <Publications />
     <HowNerdAreYou />
     <Footer />
     <GlobalStyle />

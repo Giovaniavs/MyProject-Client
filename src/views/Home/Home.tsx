@@ -9,7 +9,7 @@ import {
 
 import { HomeContainer } from './styles';
 
-import MyPhoto from '../../assets/my-photo.jpeg';
+import MyPhoto from '../../assets/my-photo.jpg';
 
 function Home() {
   const [backGroundColor, setBackGroundColor] = useState('white');
@@ -108,22 +108,22 @@ function Home() {
             align="center"
           >
 
-            <H2 align="center" padding="5% 0"> Brief description about me! </H2>
+            <H2 align="center" padding="5% 0"> Hey there! </H2>
             <Container width="75%">
               <Text className="my-personal-description-text" align="center" height="90%">
-                Hello there! I&apos;m glad to see you right here, nice to meet you! So, my name is
-                Giovani Albuquerque I realy like to study and build software applications.
-                Nowadays I&apos;m so excited to learn more about Dev Web,
-                Dev Mobile and DevOps because I believe that these three pillars united
-                are very important to understand deepthly the new world of software development
-                we live in.
+                Throughout my two years of experience working as a Software Developer I see today
+                how the world of technology is changing and how the way we interact with it
+                is changing as well. After work with a few different projects in different
+                environments and different persons I realized that I really like to work with that.
+                My focuses today are building Apps using Flutter, but I have experience in building
+                intire web frontends and backends using React, Node, ExpressJS, MongoDB, Firebase
+                and PostgreSQL and also maintaining these platforms using Docker, AWS
+                and Digital Ocean.
                 <br />
                 <br />
-                About my hobbies, I like to play games, preferably playing by pc, like DayZ,
-                Battlefield, Dota 2, The Witcher, and some others. My favorite style of game is RPG
-                without a doubt, but I&apos;m an FPS fan too! About movies, series, and animes my
-                favorite are Game Of Thrones as a series, Saving Private Ryan as a movie,
-                and Dragon Ball as anime!
+                About my hobbies, I like to play FPS and RPG games, Work out, Watch animes,
+                Read medieval fantasy books, go to the cinema, listen to music, and watch
+                &quot;Walking 4k raining tokyo&quot; on youtube every single day!
                 <br />
               </Text>
             </Container>
