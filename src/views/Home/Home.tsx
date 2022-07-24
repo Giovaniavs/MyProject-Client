@@ -111,9 +111,9 @@ function Home() {
             <H2 align="center" padding="5% 0"> Hey there! </H2>
             <Container width="75%">
               <Text className="my-personal-description-text" align="center" height="90%">
-                Throughout my two years of experience working as a Software Developer I see today
+                Throughout my two years of experience working as a Software Developer I see
                 how the world of technology is changing and how the way we interact with it
-                is changing as well. After work with a few different projects in different
+                is becoming complex as well. After work with a few different projects in different
                 environments and different persons I realized that I really like to work with that.
                 My focuses today are building Apps using Flutter, but I have experience in building
                 intire web frontends and backends using React, Node, ExpressJS, MongoDB, Firebase

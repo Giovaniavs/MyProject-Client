@@ -52,7 +52,7 @@ export default function Publications() {
         margin="1rem 0 3rem 0"
         height="50px"
       >
-        Take a look at my publications of Software Development and Technology!
+        Take a look at my publications of Software Development!
       </Text>
       <FlexContainer backgroundColor="inhierit" justify="center" maxWidth="900px">
         <FlexContainer
