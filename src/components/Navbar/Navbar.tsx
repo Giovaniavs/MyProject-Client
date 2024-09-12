@@ -72,9 +72,6 @@ function Navbar() {
             <ItemLink href="#Projects"> Projects </ItemLink>
           </NavbarItem>
           <NavbarItem>
-            <ItemLink href="#Soundtrack"> Soundtrack </ItemLink>
-          </NavbarItem>
-          <NavbarItem>
             <ItemLink href="#Experiences"> Experiences </ItemLink>
           </NavbarItem>
           <NavbarItem>
@@ -96,9 +93,6 @@ function Navbar() {
               </SidebarItem>
               <SidebarItem onClick={() => { setIsSidebarActive('100%'); setHamburguerButtonIsActive(false); }}>
                 <ItemLink href="#Experiences"> Experiences </ItemLink>
-              </SidebarItem>
-              <SidebarItem onClick={() => { setIsSidebarActive('100%'); setHamburguerButtonIsActive(false); }}>
-                <ItemLink href="#Soundtrack"> Soundtrack </ItemLink>
               </SidebarItem>
               <SidebarItem onClick={() => { setIsSidebarActive('100%'); setHamburguerButtonIsActive(false); }}>
                 <ItemLink href="#Projects"> Projects </ItemLink>

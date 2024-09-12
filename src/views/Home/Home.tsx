@@ -59,23 +59,11 @@ function Home() {
             opacity={textOpacity}
             transition="0.5s all ease-in-out"
           >
-            Bem vindo!
+            Hello Everyone! 🇺🇸
             <br />
-            Welcome!
+            Salut tout le monde! 🇫🇷
             <br />
-            Bienvenido!
-            <br />
-            Herzlich willkommen!
-            <br />
-            Benvenuto!
-            <br />
-            بيم فيندو
-            <br />
-            ベン・ヴィンド
-            <br />
-            歡迎
-            <br />
-            어서 오십시오
+            Olá pessoal! 🇧🇷
           </Text>
           <FlexContainer
             className="my-personal-photo-container"
@@ -108,7 +96,7 @@ function Home() {
             align="center"
           >
 
-            <H2 align="center" padding="5% 0"> Hey there! </H2>
+            <H2 align="center" padding="5% 0"> Introduction </H2>
             <Container width="75%">
               <Text className="my-personal-description-text" align="center" height="90%">
                 Throughout my two years of experience working as a Software Developer, I see
