@@ -29,25 +29,26 @@ function Experiences() {
             className="vertical-timeline-element--work"
             contentStyle={{
               background: '#fff',
-              borderTop: '3px solid rgb(33, 150, 243)',
+              borderTop: '3px solid rgb(25,25,112)',
               color: '#000000',
               fontFamily: 'Roboto',
               borderRadius: '15px',
             }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentArrowStyle={{ borderRight: '7px solid  rgb(25,25,112)' }}
             date="2019 - 7 Months"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            iconStyle={{ background: 'rgb(25,25,112)', color: '#fff' }}
           >
-            <H2 className="vertical-timeline-element-title">Mathematic and Physics Tutor</H2>
+            <H2 className="vertical-timeline-element-title">Mathematic and Physics Teaching Assistant</H2>
             <H2 className="vertical-timeline-element-subtitle">
               {' '}
-              <a style={{ color: 'rgb(33, 150, 243)' }} href="https://oficinadeestudos.miedu.com.br/#/landing/saibamais/0" target="_blank"> Oficina de Estudos</a>
+              <a style={{ color: 'rgb(25,25,112)' }} href="https://oficinadeestudos.miedu.com.br/#/landing/saibamais/0" target="_blank"> Oficina de Estudos</a>
               {' '}
-              - Recife, PE
+              - Recife, BR
             </H2>
             <Text>
-              Acting as a tutor, I&apos;ve learned so much about teaching and conversation skills,
-              which are soft skills that help me a lot in my professional life nowadays.
+              Acting as a teaching assistant, I&apos;ve learned a lot about
+              communication skills, which are important soft skills that
+              help me on a daily basis in my professional life.
             </Text>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -55,27 +56,31 @@ function Experiences() {
             contentStyle={{
               background: '#fff',
               color: '#000000',
-              borderTop: '3px solid rgb(233, 30, 99)',
+              borderTop: '3px solid rgb(255, 0, 0)',
               fontFamily: 'Roboto',
               borderRadius: '15px',
             }}
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-            date="2019 - 3 Years until now"
-            iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+            date="2019 - 2023 - 4 years"
+            iconStyle={{ background: 'rgb(255, 0, 0)', color: '#fff' }}
           >
-            <H2 className="vertical-timeline-element-title">Started the Graduation in Information Systems</H2>
+            <H2 className="vertical-timeline-element-title">Bachelor&apos;s in Information Systems</H2>
             <H2 className="vertical-timeline-element-subtitle">
               {' '}
-              <a style={{ color: 'rgb(233, 30, 99)' }} href="https://www.ufpe.br/UFPE" target="_blank">UFPE</a>
+              <a style={{ color: 'rgb(255, 0, 0)' }} href="https://en.wikipedia.org/wiki/Federal_University_of_Pernambuco" target="_blank">UFPE</a>
               {' '}
-              - Federal University of Pernambuco
+              - Federal University of Pernambuco - Recife, BR
             </H2>
             <Text>
-              I started my studies in one of the best centers of techonology in the Latin America,
+              I graduated with a GPA of 3.53/4.0 from one of the best technology
+              centers in Latin America,
               {' '}
-              <a style={{ color: 'rgb(233, 30, 99)' }} href="https://portal.cin.ufpe.br/" target="_blank">CIn - Centro de Informática</a>
-              . I was aproved in the university with 784 points in the vestibular ENEM, which
-              made me occupy the 6th position of the approved ones!
+              <a style={{ color: 'rgb(255, 0, 0)' }} href="https://portal.cin.ufpe.br/" target="_blank">CIn - Centro de Informática</a>
+              . Here, I learned the basics of programming logic, algorithms and
+              data structures, object-oriented programming, teamwork, scientific
+              methods, academic writing, the English language, and the fundamentals
+              of software development, including backend, DevOps, and mobile and
+              web environments.
             </Text>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -83,119 +88,127 @@ function Experiences() {
             contentStyle={{
               background: '#fff',
               color: '#000000',
-              borderTop: '3px solid #7bdf54',
+              borderTop: '3px solid rgb(0,0,0)',
               fontFamily: 'Roboto',
               borderRadius: '15px',
             }}
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-            date="2020 - 6 Months"
-            iconStyle={{ background: '#7bdf54', color: '#fff' }}
+            date="2020 - 2021 - 1 year"
+            iconStyle={{ background: 'rgb(0,0,0)', color: '#fff' }}
           >
             <H2 className="vertical-timeline-element-title">Full Stack Developer</H2>
             <H2 className="vertical-timeline-element-subtitle">
               {' '}
-              <a style={{ color: '#7bdf54' }} href="https://citi.org.br/" target="_blank">CITi</a>
+              <a style={{ color: 'rgb(0,0,0)' }} href="https://citi.org.br/" target="_blank">CITi - Centro Integrado de Tecnologia e Informação</a>
               {' '}
-              - UFPE, CIn
+              - Recife, BR
             </H2>
             <Text>
-              It was my first experience as a developer in the real market. Be a part of a Junior
-              Enterprise was, without a doubt, the best choice that I made! I&apos;ve learned a
-              lot things about the Frontend and Backend technologies, like React and Node.
+              Here, I had my first experience working as a software developer. Being
+              part of a Junior Enterprise, which is a company managed by students with
+              the objective of gaining experience in the market, was one of the best
+              choices I made while I was at the university.
+              <br />
+              <br />
+              The technologies I used to develop the projects included React,
+              TypeScript, Node.js, Express, PostgreSQL, React Native, and AWS
+              and Digital Ocean for managing deployments.
+              <br />
+              <br />
+              This experience was divided into two phases: the first 6 months
+              working as a software developer and the last 6 months as a Tech Leader.
+              The first phase was focused on learning the basics of software
+              development, while the second phase involved both software development
+              and technical team management.
             </Text>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{
               background: '#fff',
-              borderTop: '3px solid #7bdf54',
+              borderTop: '3px solid rgb(50,205,50)',
               color: '#000000',
               fontFamily: 'Roboto',
               borderRadius: '15px',
             }}
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-            date="2021 - 6 Months"
-            iconStyle={{ background: '#7bdf54', color: '#fff' }}
+            date="2021 - 2022 - 8 Months"
+            iconStyle={{ background: 'rgb(50,205,50)', color: '#fff' }}
           >
-            <H2 className="vertical-timeline-element-title">Tech Leader</H2>
-            <H2 className="vertical-timeline-element-subtitle"> CITi - UFPE, CIn</H2>
-            <Text>
-              As a tech leader I was responsible to: Teach the new developers in the enterprise
-              to grow up fastly, Work as a Quality Analist in my squad, Lead the area and make it
-              better for the future CITi&apos;s generations!
-            </Text>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{
-              background: '#fff',
-              borderTop: '3px solid #b2ff93',
-              color: '#000000',
-              fontFamily: 'Roboto',
-              borderRadius: '15px',
-            }}
-            contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-            date="2021 - 7 Months"
-            iconStyle={{ background: '#b2ff93', color: '#fff' }}
-          >
-            <H2 className="vertical-timeline-element-title">Software Development Intern</H2>
+            <H2 className="vertical-timeline-element-title">Intern Mobile Software Developer</H2>
             <H2 className="vertical-timeline-element-subtitle">
               {' '}
-              <a style={{ color: '#7bdf54' }} href="https://capyba.com/" target="_blank">Capyba Software</a>
+              <a style={{ color: 'rgb(50,205,50)' }} href="https://capyba.com/" target="_blank">Capyba Software Studio</a>
               {' '}
               - Recife, PE
             </H2>
             <Text>
-              Worked with three main frameworks, which were Angular, Django and Flutter.
-              The focus was on the Mobile Software Development using the Dart/Flutter
-              based on the Clean Architecture.
+              Worked with three main frameworks: Angular, Django,
+              and Flutter, but the focus was on Mobile Software
+              Development using Dart/Flutter based on the Clean
+              Architecture.
             </Text>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{
               background: '#fff',
-              borderTop: '3px solid #b2ff93',
+              borderTop: '3px solid rgb(50,205,50)',
               color: '#000000',
               fontFamily: 'Roboto',
               borderRadius: '15px',
             }}
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-            date="2021 - 5 Months"
-            iconStyle={{ background: '#b2ff93', color: '#fff' }}
+            date="2022 - 2024 - 2 years and 3 months"
+            iconStyle={{ background: 'rgb(50,205,50)', color: '#fff' }}
           >
-            <H2 className="vertical-timeline-element-title">Software Development Trainee</H2>
+            <H2 className="vertical-timeline-element-title">Mobile Software Developer</H2>
             <H2 className="vertical-timeline-element-subtitle">
-              Capyba Software - Recife, PE
+              Capyba Software Studio - Recife, PE
             </H2>
             <Text>
-              Worked deeply with the Flutter framework in
-              a specific project, which made me increase my proficiency
-              as a software developer and as a flutter developer.
-              I learned a lot about the Clean Architecture and how to use it in the project.
+              Worked deeply with Flutter in a huge Educational
+              App for Law
+              {' '}
+              <a style={{ color: 'rgb(50,205,50)' }} href="https://play.google.com/store/apps/details?id=com.artics.ejoab&referrer=utm_source%253Dbotao_download_1de4_site_principal&pli=1" target="_blank">OAB de Bolso</a>
+              , where I had to talk
+              to clients, develop features, write unitary tests,
+              document backend routes, integrate an entire mobile
+              app with the backend, and deal with publishing in
+              the App Store and Google Play Store.
+              <br />
+              <br />
+              Besides this major experience, I also have worked
+              partially on other projects to solve specific
+              demands, using a variety of frameworks, such as
+              React, Node, Angular, Django, and Laravel PHP.
             </Text>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{
               background: '#fff',
-              borderTop: '3px solid #b2ff93',
               color: '#000000',
+              borderTop: '3px solid rgb(0,0,0)',
               fontFamily: 'Roboto',
               borderRadius: '15px',
             }}
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-            date="2022 - Actual"
-            iconStyle={{ background: '#b2ff93', color: '#fff' }}
+            date="2024 - Present"
+            iconStyle={{ background: 'rgb(0,0,0)', color: '#fff' }}
           >
-            <H2 className="vertical-timeline-element-title">Software Development Junior</H2>
+            <H2 className="vertical-timeline-element-title">Pleno Mobile Software Engineer</H2>
             <H2 className="vertical-timeline-element-subtitle">
-              Capyba Software - Recife, PE
+              {' '}
+              <a style={{ color: 'rgb(0,0,0)' }} href="https://compass.uol/en/home/" target="_blank">Compass UOL</a>
+              {' '}
+              - Passo Fundo, BR
             </H2>
             <Text>
-              Untill now, all I have to say is that my responsibilites are
-              increasing and I&apos;m learning new things everyday, not only
-              as a software developer but also as a professionial of Techology.
+              I am currently working with Flutter on the development of the
+              first version of an application, addressing new client demands,
+              improving UI/UX experiences, and integrating
+              the mobile application with various backend endpoints.
             </Text>
           </VerticalTimelineElement>
         </VerticalTimeline>

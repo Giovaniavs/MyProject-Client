@@ -99,19 +99,23 @@ function Home() {
             <H2 align="center" padding="5% 0"> Introduction </H2>
             <Container width="75%">
               <Text className="my-personal-description-text" align="center" height="90%">
-                Throughout my two years of experience working as a Software Developer, I see
-                how the world of technology is changing and how the way we interact with it
-                is becoming complex as well. After working with a few different projects on
-                different environments and different persons I realized that I really like
-                to work with that. My focus today is building Apps using Flutter, but I have
-                experience in building entire web frontends and backends using React, Node,
-                ExpressJS, MongoDB, Firebase and PostgreSQL and also maintaining these platforms
-                using Docker, AWS and Digital Ocean.
+                Hello everyone, I&apos;m called Giovani Albuquerque and I come from Brazil!
+                I have been working with software development since the middle of the
+                pandemic back in 2020, when I started working on front web and backend
+                to build web applications using frameworks like React and Node. Nowadays,
+                I&apos;m more focused on mobile development using Flutter and I have been working
+                in this environment sice 2021, when I first started with React Native.
+                In general, I like the area of software development as a whole, solving
+                problems of front web, mobile, backend, devops are all part of the main
+                objective, which is offering a better experience for
+                the costumers of the application.
                 <br />
                 <br />
-                About my hobbies, I like to play FPS and RPG games, Work out, Watch animes,
-                Read medieval fantasy books, go to the cinema, listen to music, and watch
-                &quot;Walking 4k raining tokyo&quot; on youtube every single day!
+                About my hobbies, I like to play computer games, work out,
+                watch tv series and movies, read fantasy books, and listen to good music!
+                Also, I love learning languages, nowadays I am focused on the learning of the
+                french language, il est très interessant! Latter on, I am going to focus
+                on the japanese language parce que j&apos;aime beaucoup le Japan!
                 <br />
               </Text>
             </Container>
