@@ -24,11 +24,15 @@ export default function Projects() {
   }, [currentScreen]);
 
   const projects = [
-    { name: 'This Single Page', link: 'https://github.com/Giovaniavs/MyProject-Client', color: '#2fd3d3' },
+    { name: 'My Portfolio', link: 'https://github.com/Giovaniavs/MyProject-Client', color: '#2fd3d3' },
     { name: 'Plant Manager', link: 'https://github.com/Giovaniavs/PlantManager', color: '#2ac458' },
     { name: 'Moveit', link: 'https://github.com/Giovaniavs/Moveit', color: '#5965e0' },
     { name: 'Microservice JWT', link: 'https://github.com/Giovaniavs/Microservice-JWT-Auth', color: '#ff6ada' },
     { name: 'Capyba Challange', link: 'https://github.com/Giovaniavs/Capyba_Challenge', color: '#2ac458' },
+    { name: 'Decision board System', link: 'https://github.com/Giovaniavs/decision_board_system', color: '#C41E3A' },
+    { name: 'Nest Node.js Challenge', link: 'https://github.com/Giovaniavs/nestjs-node-challenge', color: '#228B22' },
+    { name: 'Flutter Generate Colors', link: 'https://github.com/Giovaniavs/flutter_generate_colors', color: '#0047AB' },
+    { name: 'Alogrithms', link: 'https://github.com/Giovaniavs/algorithms', color: '#FF5733' },
   ];
 
   return (
@@ -46,14 +50,15 @@ export default function Projects() {
         borderTop="1px solid #aaaaaa"
         padding="4rem 0 0 0"
       >
-        My particular projects
+        Particular projects
       </H1>
       <Text
         align="center"
         margin="1rem 0 3rem 0"
         height="50px"
       >
-        Explore the repositories of particular projects!
+        A list of particular projects, past interview challenges,
+        and repositories that I use to study new frameworks and tools.
       </Text>
       <FlexContainer backgroundColor="inhierit" justify="center" maxWidth="900px">
         <FlexContainer

@@ -28,6 +28,7 @@ export default function Publications() {
     { name: 'Microservice JWT', link: 'https://gavs2.medium.com/o-que-s%C3%A3o-microservi%C3%A7os-jwt-e-a-apresenta%C3%A7%C3%A3o-de-uma-aplica%C3%A7%C3%A3o-real-de-um-microservi%C3%A7o-de-6e435f801bbf', color: '#2ac458' },
     { name: 'Deploy of Node.js with TypeScript', link: 'https://gavs2.medium.com/deploy-de-aplica%C3%A7%C3%B5es-node-js-com-typescript-utilizando-a-plataforma-heroku-d295b7ebf9a2', color: '#5965e0' },
     { name: 'Software Engineering Project', link: 'https://gavs2.medium.com/projeto-geral-engenharia-de-software-b78ab2d5571b', color: '#ff6ada' },
+    { name: 'Flutter: Advantages and Disadvantages', link: 'https://medium.com/capyba/flutter-a-few-advantages-and-disadvantages-of-this-famous-framework-241699d9811f', color: '#0047AB' },
   ];
 
   return (
@@ -45,14 +46,14 @@ export default function Publications() {
         borderTop="1px solid #aaaaaa"
         padding="4rem 0 0 0"
       >
-        My publications
+        Publications
       </H1>
       <Text
         align="center"
         margin="1rem 0 3rem 0"
         height="50px"
       >
-        Take a look at my publications of Software Development!
+        Personal publications exploring differents subjects in the area of software engineering.
       </Text>
       <FlexContainer backgroundColor="inhierit" justify="center" maxWidth="900px">
         <FlexContainer
