@@ -97,8 +97,8 @@ function Home() {
           >
 
             <H2 align="center" padding="5% 0"> Introduction </H2>
-            <Container width="75%">
-              <Text className="my-personal-description-text" align="center" height="90%">
+            <Container height="fit-content" width="75%">
+              <Text className="my-personal-description-text" align="center">
                 Hello everyone, I&apos;m called Giovani Albuquerque and I come from Brazil!
                 I have been working with software development since the middle of the
                 pandemic back in 2020, when I started working on front web and backend
