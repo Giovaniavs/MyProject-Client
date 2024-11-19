@@ -114,7 +114,7 @@ function Home() {
                 About my hobbies, I like to play computer games, work out,
                 watch tv series and movies, read fantasy books, and listen to good music!
                 Also, I love learning languages, nowadays I am focused on the learning of the
-                french language, il est très interessant! Latter on, I am going to focus
+                french language, c&apos;est très intéressant! Latter on, I am going to focus
                 on the japanese language parce que j&apos;aime beaucoup le Japan!
                 <br />
               </Text>
